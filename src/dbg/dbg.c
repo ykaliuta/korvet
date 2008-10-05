@@ -32,10 +32,10 @@ struct CPUREG dbg_prevREG;
 
 #define MAXDBG 3
 int (*_dbg[MAXDBG])(int Key)={_REGS,_DASM,_DUMP};
-int  dbgMODE =1;    //текущий режим отладчика.
+int  dbgMODE =1;    //С‚РµРєСѓС‰РёР№ СЂРµР¶РёРј РѕС‚Р»Р°РґС‡РёРєР°.
  
-int  dbg_TRACE=0;   //если =1 то остановится ПЕРЕД выполнением комманды
-word dbg_HERE =0xffff;   //адрес остановки при нажатии клавиши F4 (HERE)
+int  dbg_TRACE=0;   //РµСЃР»Рё =1 С‚Рѕ РѕСЃС‚Р°РЅРѕРІРёС‚СЃСЏ РџР•Р Р•Р” РІС‹РїРѕР»РЅРµРЅРёРµРј РєРѕРјРјР°РЅРґС‹
+word dbg_HERE =0xffff;   //Р°РґСЂРµСЃ РѕСЃС‚Р°РЅРѕРІРєРё РїСЂРё РЅР°Р¶Р°С‚РёРё РєР»Р°РІРёС€Рё F4 (HERE)
 int  InDBG    =0;
 int  dbg_Cause=0;
 int  dbg_CauseAddr=0;
@@ -62,7 +62,7 @@ byte  TCall[256]= {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0, // 00
 
 extern int Takt;
 
-extern int scr_Page_Show; // Страница для отображения             ViReg:000000xx
+extern int scr_Page_Show; // РЎС‚СЂР°РЅРёС†Р° РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ             ViReg:000000xx
 int Saved_scr_Page_Show;
 int DBG_scr_Page_Show=-1;
 

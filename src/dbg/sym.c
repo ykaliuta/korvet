@@ -42,7 +42,7 @@ void UpdateSymRW(int endfl) {
 
 int SymDialog(int mode) { //1 - write
 
-  char Title[2][16]={"Ä SYM  Read"," SYM  Write"};
+  char Title[2][16]={"Ğ” SYM  Read"," SYM  Write"};
   byte buf[128];
   int tmp;
   int i;
@@ -50,9 +50,9 @@ int SymDialog(int mode) { //1 - write
 
   tSetUpdate(0);
 
-  tScreenPutString("ÚÄÄÄÄÄÄÄÄ            ÄÄÄÄÄÄÄÄÄÄ¿",C_ReadWrite,x,y+0);
-  tScreenPutString("³ Name: ______________________ ³",C_ReadWrite,x,y+1);
-  tScreenPutString("ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ",C_ReadWrite,x,y+2);
+  tScreenPutString("ĞªĞ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”            Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ñ—",C_ReadWrite,x,y+0);
+  tScreenPutString("Ñ– Name: ______________________ Ñ–",C_ReadWrite,x,y+1);
+  tScreenPutString("ĞĞ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ©",C_ReadWrite,x,y+2);
 
   tScreenPutString(Title[mode],C_ReadWrite,x+9,y+0);
 

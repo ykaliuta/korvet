@@ -45,12 +45,12 @@ extern byte SOUNDBUF[];
 
 #define PLANESIZE 	16384
 
-extern byte ACZU[1024*2];          // 1К памяти АЦЗУ
-//extern byte ACZU_INV[1024];      // 1К флагов атрибута АЦЗУ
-extern byte GZU[4][PLANESIZE*3]; // 3 слоя ГЗУ (4 страницы)
+extern byte ACZU[1024*2];          // 1Рљ РїР°РјСЏС‚Рё РђР¦Р—РЈ
+//extern byte ACZU_INV[1024];      // 1Рљ С„Р»Р°РіРѕРІ Р°С‚СЂРёР±СѓС‚Р° РђР¦Р—РЈ
+extern byte GZU[4][PLANESIZE*3]; // 3 СЃР»РѕСЏ Р“Р—РЈ (4 СЃС‚СЂР°РЅРёС†С‹)
 extern byte LUT[16];
 extern PALLETE pallete;
-extern int scr_GZU_Size_Mask;    // маска размера ГЗУ, =0x0f - 4*48, =0 - 1x 48k
+extern int scr_GZU_Size_Mask;    // РјР°СЃРєР° СЂР°Р·РјРµСЂР° Р“Р—РЈ, =0x0f - 4*48, =0 - 1x 48k
 // end ForDUMP
 
 extern byte RAM[65535];
@@ -115,8 +115,8 @@ FILE *F_TIMER;
 
 
 #ifdef DBG
-extern word dbg_HERE;  // Адрес останова при пошаговом выполнении
-extern int  dbg_TRACE;  // Флаг необходимости вызова отладчика
+extern word dbg_HERE;  // РђРґСЂРµСЃ РѕСЃС‚Р°РЅРѕРІР° РїСЂРё РїРѕС€Р°РіРѕРІРѕРј РІС‹РїРѕР»РЅРµРЅРёРё
+extern int  dbg_TRACE;  // Р¤Р»Р°Рі РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РІС‹Р·РѕРІР° РѕС‚Р»Р°РґС‡РёРєР°
 #endif
 
 //
@@ -509,9 +509,9 @@ int main(int argc,char **argv) {
             PrintDecor();
             AllScreenUpdateFlag=1;
          }
-       // выводим OnScreen LED
-       // ТОЛЬКО если есть необходимость обновить индикаторы, 
-       // иначе будут мигать, да и FPS падает ;-)
+       // РІС‹РІРѕРґРёРј OnScreen LED
+       // РўРћР›Р¬РљРћ РµСЃР»Рё РµСЃС‚СЊ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚СЊ РѕР±РЅРѕРІРёС‚СЊ РёРЅРґРёРєР°С‚РѕСЂС‹, 
+       // РёРЅР°С‡Рµ Р±СѓРґСѓС‚ РјРёРіР°С‚СЊ, РґР° Рё FPS РїР°РґР°РµС‚ ;-)
        // FPS
        if (OSD_FPS_Flag && (FPS_Scr != FPS_LED)) {PutLED_FPS(SCREEN_OFFX,SCREEN_OFFY+260,FPS_Scr);FPS_LED=FPS_Scr;};
        // Floppy Disk TRACK

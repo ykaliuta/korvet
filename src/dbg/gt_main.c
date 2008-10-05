@@ -23,7 +23,7 @@
 #include "dbg.h"
 #include <allegro.h>
 
-extern byte    RAM[];           // RAM эмулятора
+extern byte    RAM[];           // RAM СЌРјСѓР»СЏС‚РѕСЂР°
 
 int GT_Pass=0;
 

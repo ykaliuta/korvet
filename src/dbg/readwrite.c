@@ -46,7 +46,7 @@ void UpdateRW(int endfl) {
 
 int RWDialog(int mode) { //1 - write
 
-  char Title[2][16]={"Ä Read memory"," Write memory"};
+  char Title[2][16]={"Ğ” Read memory"," Write memory"};
   byte buf[128];
   int tmp;
   int i;
@@ -54,11 +54,11 @@ int RWDialog(int mode) { //1 - write
 
   tSetUpdate(0);
 
-  tScreenPutString("ÚÄÄÄÄÄÄÄÄ              ÄÄÄÄÄÄÄÄ¿",C_ReadWrite,x,y+0);
-  tScreenPutString("³ Name: ______________________ ³",C_ReadWrite,x,y+1);
-  tScreenPutString("³                              ³",C_ReadWrite,x,y+2);
-  tScreenPutString("³  Start:                      ³",C_ReadWrite,x,y+3);
-  tScreenPutString("ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ",C_ReadWrite,x,y+4);
+  tScreenPutString("ĞªĞ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”              Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ñ—",C_ReadWrite,x,y+0);
+  tScreenPutString("Ñ– Name: ______________________ Ñ–",C_ReadWrite,x,y+1);
+  tScreenPutString("Ñ–                              Ñ–",C_ReadWrite,x,y+2);
+  tScreenPutString("Ñ–  Start:                      Ñ–",C_ReadWrite,x,y+3);
+  tScreenPutString("ĞĞ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ”Ğ©",C_ReadWrite,x,y+4);
 
   tScreenPutString(Title[mode],C_ReadWrite,x+9,y+0);
 

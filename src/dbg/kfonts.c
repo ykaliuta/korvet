@@ -23,32 +23,32 @@ static FONT_GLYPH korvet_font0_glyph0 = {
 
 static FONT_GLYPH korvet_font0_glyph1 = {
     8, 16, /* width, height */
-    "\0\0\0~Å•ÅÅΩôÅ~\0\0\0\0"
+    "\0\0\0~–É“ê–É–É–Ö‚Ñ¢–É~\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph2 = {
     8, 16, /* width, height */
-    "\0\0\0~ˇ€ˇˇ√Áˇ~\0\0\0\0"
+    "\0\0\0~—è–´—è—è–ì–∑—è~\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph3 = {
     8, 16, /* width, height */
-    "\0\0\0\0l˛˛˛˛|8\x10\0\0\0\0"
+    "\0\0\0\0l—é—é—é—é|8\x10\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph4 = {
     8, 16, /* width, height */
-    "\0\0\0\0\x10""8|˛|8\x10\0\0\0\0\0"
+    "\0\0\0\0\x10""8|—é|8\x10\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph5 = {
     8, 16, /* width, height */
-    "\0\0\0\x18<<ÁÁÁ\x18\x18<\0\0\0\0"
+    "\0\0\0\x18<<–∑–∑–∑\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph6 = {
     8, 16, /* width, height */
-    "\0\0\0\x18<~ˇˇ~\x18\x18<\0\0\0\0"
+    "\0\0\0\x18<~—è—è~\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph7 = {
@@ -58,7 +58,7 @@ static FONT_GLYPH korvet_font0_glyph7 = {
 
 static FONT_GLYPH korvet_font0_glyph8 = {
     8, 16, /* width, height */
-    "˛˛˛˛˛˛Ó∆∆Ó˛˛˛˛˛˛"
+    "—é—é—é—é—é—é–æ–ñ–ñ–æ—é—é—é—é—é—é"
 };
 
 static FONT_GLYPH korvet_font0_glyph9 = {
@@ -68,32 +68,32 @@ static FONT_GLYPH korvet_font0_glyph9 = {
 
 static FONT_GLYPH korvet_font0_glyph10 = {
     8, 16, /* width, height */
-    "\0\0ˇˇˇ√ôΩΩô√ˇˇˇ\0\0"
+    "\0\0—è—è—è–ì‚Ñ¢–Ö–Ö‚Ñ¢–ì—è—è—è\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph11 = {
     8, 16, /* width, height */
-    "\0\0\0\x1f\xf\x19\x18\x18\x18|ÃÃx\0\0\0"
+    "\0\0\0\x1f\xf\x19\x18\x18\x18|–ú–úx\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph12 = {
     8, 16, /* width, height */
-    "\0\0\0xÃÃx000¸00\0\0\0"
+    "\0\0\0x–ú–úx000—å00\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph13 = {
     8, 16, /* width, height */
-    "\0\0\0?3?00000p‡\0\0\0"
+    "\0\0\0?3?00000p–∞\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph14 = {
     8, 16, /* width, height */
-    "\0\0\0~f~fffnÓÏ¿\0\0\0"
+    "\0\0\0~f~fffn–æ–º–ê\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph15 = {
     8, 16, /* width, height */
-    "\0\0\0\x18\x18€<Á<€\x18\x18\0\0\0\0"
+    "\0\0\0\x18\x18–´<–∑<–´\x18\x18\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph16 = {
@@ -118,17 +118,17 @@ static FONT_GLYPH korvet_font0_glyph19 = {
 
 static FONT_GLYPH korvet_font0_glyph20 = {
     8, 16, /* width, height */
-    "\0\0\0~∂∂∂∂v666\0\0\0\0"
+    "\0\0\0~¬∂¬∂¬∂¬∂v666\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph21 = {
     8, 16, /* width, height */
-    "\0\0xÃ`8l∆∆l8\ff<\0\0"
+    "\0\0x–ú`8l–ñ–ñl8\ff<\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph22 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0\0˛˛˛\0\0\0\0"
+    "\0\0\0\0\0\0\0\0\0—é—é—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph23 = {
@@ -148,32 +148,32 @@ static FONT_GLYPH korvet_font0_glyph25 = {
 
 static FONT_GLYPH korvet_font0_glyph26 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\x18\f˛\f\x18\0\0\0\0\0\0"
+    "\0\0\0\0\0\x18\f—é\f\x18\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph27 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0""0`˛`0\0\0\0\0\0\0"
+    "\0\0\0\0\0""0`—é`0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph28 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0‡‡‡˛\0\0\0\0\0"
+    "\0\0\0\0\0\0\0–∞–∞–∞—é\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph29 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0$fˇf$\0\0\0\0\0\0"
+    "\0\0\0\0\0$f—èf$\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph30 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\x18<~ˇˇ\0\0\0\0\0\0"
+    "\0\0\0\0\0\x18<~—è—è\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph31 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0ˇˇ~<\x18\0\0\0\0\0\0"
+    "\0\0\0\0\0—è—è~<\x18\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph32 = {
@@ -193,22 +193,22 @@ static FONT_GLYPH korvet_font0_glyph34 = {
 
 static FONT_GLYPH korvet_font0_glyph35 = {
     8, 16, /* width, height */
-    "\0\0ll˛llll˛ll\0\0\0\0"
+    "\0\0ll—éllll—éll\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph36 = {
     8, 16, /* width, height */
-    "\0\x10\x10|∆ƒ¿8\x6""F∆|\x10\x10\0\0"
+    "\0\x10\x10|–ñ–î–ê8\x6""F–ñ|\x10\x10\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph37 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0¬∆\f\x18""0f∆\0\0\0\0"
+    "\0\0\0\0\0–í–ñ\f\x18""0f–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph38 = {
     8, 16, /* width, height */
-    "\0\0\0""8ll8v‹ÃÃv\0\0\0\0"
+    "\0\0\0""8ll8v–¨–ú–úv\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph39 = {
@@ -228,7 +228,7 @@ static FONT_GLYPH korvet_font0_glyph41 = {
 
 static FONT_GLYPH korvet_font0_glyph42 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0""f<ˇ<f\0\0\0\0\0\0"
+    "\0\0\0\0\0""f<—è<f\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph43 = {
@@ -253,12 +253,12 @@ static FONT_GLYPH korvet_font0_glyph46 = {
 
 static FONT_GLYPH korvet_font0_glyph47 = {
     8, 16, /* width, height */
-    "\0\0\0\x2\x6\f\x18""0`¿Ä\0\0\0\0\0"
+    "\0\0\0\x2\x6\f\x18""0`–ê–Ç\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph48 = {
     8, 16, /* width, height */
-    "\0\0\0|∆ŒﬁˆÊ∆∆|\0\0\0\0"
+    "\0\0\0|–ñ–û–Æ—Ü–∂–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph49 = {
@@ -268,42 +268,42 @@ static FONT_GLYPH korvet_font0_glyph49 = {
 
 static FONT_GLYPH korvet_font0_glyph50 = {
     8, 16, /* width, height */
-    "\0\0\0|∆\x6\f\x18""0`∆˛\0\0\0\0"
+    "\0\0\0|–ñ\x6\f\x18""0`–ñ—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph51 = {
     8, 16, /* width, height */
-    "\0\0\0˛∆\f\x18<\x6\x6∆|\0\0\0\0"
+    "\0\0\0—é–ñ\f\x18<\x6\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph52 = {
     8, 16, /* width, height */
-    "\0\0\0\f\x1c<lÃ˛\f\f\x1e\0\0\0\0"
+    "\0\0\0\f\x1c<l–ú—é\f\f\x1e\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph53 = {
     8, 16, /* width, height */
-    "\0\0\0˛¿¿¿¸\x6\x6∆|\0\0\0\0"
+    "\0\0\0—é–ê–ê–ê—å\x6\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph54 = {
     8, 16, /* width, height */
-    "\0\0\0""8`¿¿¸∆∆∆|\0\0\0\0"
+    "\0\0\0""8`–ê–ê—å–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph55 = {
     8, 16, /* width, height */
-    "\0\0\0˛∆\x6\f\x18""0000\0\0\0\0"
+    "\0\0\0—é–ñ\x6\f\x18""0000\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph56 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆∆|∆∆∆|\0\0\0\0"
+    "\0\0\0|–ñ–ñ–ñ|–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph57 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆∆~\x6\x6\fx\0\0\0\0"
+    "\0\0\0|–ñ–ñ–ñ~\x6\x6\fx\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph58 = {
@@ -333,52 +333,52 @@ static FONT_GLYPH korvet_font0_glyph62 = {
 
 static FONT_GLYPH korvet_font0_glyph63 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆\f\x18\x18\0\x18\x18\0\0\0\0"
+    "\0\0\0|–ñ–ñ\f\x18\x18\0\x18\x18\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph64 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆ﬁﬁﬁ‹¿|\0\0\0\0"
+    "\0\0\0|–ñ–ñ–Æ–Æ–Æ–¨–ê|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph65 = {
     8, 16, /* width, height */
-    "\0\0\0\x10""8l∆∆˛∆∆∆\0\0\0\0"
+    "\0\0\0\x10""8l–ñ–ñ—é–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph66 = {
     8, 16, /* width, height */
-    "\0\0\0¸fff|fff¸\0\0\0\0"
+    "\0\0\0—åfff|fff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph67 = {
     8, 16, /* width, height */
-    "\0\0\0<f¬¿¿¿¬f<\0\0\0\0"
+    "\0\0\0<f–í–ê–ê–ê–íf<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph68 = {
     8, 16, /* width, height */
-    "\0\0\0¯lfffffl¯\0\0\0\0"
+    "\0\0\0—àlfffffl—à\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph69 = {
     8, 16, /* width, height */
-    "\0\0\0˛fbhxhbf˛\0\0\0\0"
+    "\0\0\0—éfbhxhbf—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph70 = {
     8, 16, /* width, height */
-    "\0\0\0˛fbhxh``\0\0\0\0"
+    "\0\0\0—éfbhxh``—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph71 = {
     8, 16, /* width, height */
-    "\0\0\0<f¬¿¿Œ∆f:\0\0\0\0"
+    "\0\0\0<f–í–ê–ê–û–ñf:\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph72 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆˛∆∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ—é–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph73 = {
@@ -388,87 +388,87 @@ static FONT_GLYPH korvet_font0_glyph73 = {
 
 static FONT_GLYPH korvet_font0_glyph74 = {
     8, 16, /* width, height */
-    "\0\0\0\x1e\f\f\f\f\fÃÃx\0\0\0\0"
+    "\0\0\0\x1e\f\f\f\f\f–ú–úx\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph75 = {
     8, 16, /* width, height */
-    "\0\0\0ÊfllxllfÊ\0\0\0\0"
+    "\0\0\0–∂fllxllf–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph76 = {
     8, 16, /* width, height */
-    "\0\0\0`````bf˛\0\0\0\0"
+    "\0\0\0—Ä`````bf—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph77 = {
     8, 16, /* width, height */
-    "\0\0\0∆Ó˛÷∆∆∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–æ—é–¶–ñ–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph78 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆ÊˆﬁŒ∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–ñ–∂—Ü–Æ–û–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph79 = {
     8, 16, /* width, height */
-    "\0\0\0""8l∆∆∆∆∆l8\0\0\0\0"
+    "\0\0\0""8l–ñ–ñ–ñ–ñ–ñl8\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph80 = {
     8, 16, /* width, height */
-    "\0\0\0¸fff|```\0\0\0\0"
+    "\0\0\0—åfff|```—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph81 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆∆∆÷ﬁ|\f\xe\0\0\0"
+    "\0\0\0|–ñ–ñ–ñ–ñ–¶–Æ|\f\xe\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph82 = {
     8, 16, /* width, height */
-    "\0\0\0¸fff|lffÊ\0\0\0\0"
+    "\0\0\0—åfff|lff–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph83 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆`8\f∆∆|\0\0\0\0"
+    "\0\0\0|–ñ–ñ`8\f–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph84 = {
     8, 16, /* width, height */
-    "\0\0\0ˇ€ô\x18\x18\x18\x18\x18<\0\0\0\0"
+    "\0\0\0—è–´‚Ñ¢\x18\x18\x18\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph85 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆∆∆∆∆|\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph86 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆∆∆l8\x10\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ–ñ–ñl8\x10\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph87 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆÷÷˛Ól\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ–¶–¶—é–æl\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph88 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆l8l∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñl8l–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph89 = {
     8, 16, /* width, height */
-    "\0\0\0√√√f<\x18\x18\x18<\0\0\0\0"
+    "\0\0\0–ì–ì–ìf<\x18\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph90 = {
     8, 16, /* width, height */
-    "\0\0\0˛∆å\x18""0`¬∆˛\0\0\0\0"
+    "\0\0\0—é–ñ–ä\x18""0`–í–ñ—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph91 = {
@@ -478,7 +478,7 @@ static FONT_GLYPH korvet_font0_glyph91 = {
 
 static FONT_GLYPH korvet_font0_glyph92 = {
     8, 16, /* width, height */
-    "\0\0\0\0Ä¿`0\x18\f\x6\x2\0\0\0\0"
+    "\0\0\0\0–Ç–ê`0\x18\f\x6\x2\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph93 = {
@@ -488,12 +488,12 @@ static FONT_GLYPH korvet_font0_glyph93 = {
 
 static FONT_GLYPH korvet_font0_glyph94 = {
     8, 16, /* width, height */
-    "\0\x10""8l∆\0\0\0\0\0\0\0\0\0\0\0"
+    "\0\x10""8l–ñ\0\0\0\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph95 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0\0\0\0\0\0ˇ\0\0"
+    "\0\0\0\0\0\0\0\0\0\0\0\0\0—è\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph96 = {
@@ -503,27 +503,27 @@ static FONT_GLYPH korvet_font0_glyph96 = {
 
 static FONT_GLYPH korvet_font0_glyph97 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0x\f|ÃÃv\0\0\0\0"
+    "\0\0\0\0\0\0x\f|–ú–úv\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph98 = {
     8, 16, /* width, height */
-    "\0\0\0‡``xlfff‹\0\0\0\0"
+    "\0\0\0–∞``xlfff–¨\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph99 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆¿¿∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ–ê–ê–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph100 = {
     8, 16, /* width, height */
-    "\0\0\0\x1c\f\f<lÃÃÃv\0\0\0\0"
+    "\0\0\0\x1c\f\f<l–ú–ú–úv\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph101 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆˛¿∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ—é–ê–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph102 = {
@@ -533,12 +533,12 @@ static FONT_GLYPH korvet_font0_glyph102 = {
 
 static FONT_GLYPH korvet_font0_glyph103 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0vÃÃÃ|\fÃx\0\0"
+    "\0\0\0\0\0\0v–ú–ú–ú|\f–úx\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph104 = {
     8, 16, /* width, height */
-    "\0\0\0‡``lvfffÊ\0\0\0\0"
+    "\0\0\0–∞``lvfff–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph105 = {
@@ -553,7 +553,7 @@ static FONT_GLYPH korvet_font0_glyph106 = {
 
 static FONT_GLYPH korvet_font0_glyph107 = {
     8, 16, /* width, height */
-    "\0\0\0‡``flxlfÊ\0\0\0\0"
+    "\0\0\0–∞``flxlf–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph108 = {
@@ -563,72 +563,72 @@ static FONT_GLYPH korvet_font0_glyph108 = {
 
 static FONT_GLYPH korvet_font0_glyph109 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0l÷÷÷÷÷\0\0\0\0"
+    "\0\0\0\0\0\0l–¶–¶–¶–¶–¶\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph110 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0‹fffff\0\0\0\0"
+    "\0\0\0\0\0\0–¨fffff\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph111 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆∆∆∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph112 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0¸fff|``\0\0"
+    "\0\0\0\0\0\0—åfff|``—Ä\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph113 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0vÃÃÃ|\f\f\x1e\0\0"
+    "\0\0\0\0\0\0v–ú–ú–ú|\f\f\x1e\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph114 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0‹vf``\0\0\0\0"
+    "\0\0\0\0\0\0–¨vf``—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph115 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆p\x1c∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñp\x1c–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph116 = {
     8, 16, /* width, height */
-    "\0\0\0\0\x10""00¸006\x1c\0\0\0\0"
+    "\0\0\0\0\x10""00—å006\x1c\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph117 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0ÃÃÃÃÃv\0\0\0\0"
+    "\0\0\0\0\0\0–ú–ú–ú–ú–úv\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph118 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆∆l8\x10\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–ñ–ñl8\x10\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph119 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆÷÷˛l\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–ñ–¶–¶—él\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph120 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆l88l∆\0\0\0\0"
+    "\0\0\0\0\0\0–ñl88l–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph121 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆∆∆~\x6\fx\0\0"
+    "\0\0\0\0\0\0–ñ–ñ–ñ–ñ~\x6\fx\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph122 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0˛Ã\x18""0f˛\0\0\0\0"
+    "\0\0\0\0\0\0—é–ú\x18""0f—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph123 = {
@@ -648,12 +648,12 @@ static FONT_GLYPH korvet_font0_glyph125 = {
 
 static FONT_GLYPH korvet_font0_glyph126 = {
     8, 16, /* width, height */
-    "\0\0ˇ\0\0\0\0\0\0\0\0\0\0\0\0\0"
+    "\0\0—è\0\0\0\0\0\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph127 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\x10""8l∆∆∆˛\0\0\0\0"
+    "\0\0\0\0\0\x10""8l–ñ–ñ–ñ—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph128 = {
@@ -663,7 +663,7 @@ static FONT_GLYPH korvet_font0_glyph128 = {
 
 static FONT_GLYPH korvet_font0_glyph129 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0\0\0\0"
+    "—Ä—Ä—Ä—Ä—Ä\0\0\0\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph130 = {
@@ -673,27 +673,27 @@ static FONT_GLYPH korvet_font0_glyph130 = {
 
 static FONT_GLYPH korvet_font0_glyph131 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ\0\0\0\0\0\0\0\0\0\0\0"
+    "—è—è—è—è—è\0\0\0\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph132 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0\0\0"
+    "\0\0\0\0\0—Ä—Ä—Ä—Ä—Ä—Ä\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph133 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0"
+    "—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph134 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf\0\0\0\0\0"
+    "\xf\xf\xf\xf\xf—Ä—Ä—Ä—Ä—Ä—Ä\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph135 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ\0\0\0\0\0"
+    "—è—è—è—è—è—Ä—Ä—Ä—Ä—Ä—Ä\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph136 = {
@@ -703,7 +703,7 @@ static FONT_GLYPH korvet_font0_glyph136 = {
 
 static FONT_GLYPH korvet_font0_glyph137 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf\xf\0\0\0\0\0"
+    "—Ä—Ä—Ä—Ä—Ä\xf\xf\xf\xf\xf\xf\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph138 = {
@@ -713,107 +713,107 @@ static FONT_GLYPH korvet_font0_glyph138 = {
 
 static FONT_GLYPH korvet_font0_glyph139 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ\xf\xf\xf\xf\xf\xf\0\0\0\0\0"
+    "—è—è—è—è—è\xf\xf\xf\xf\xf\xf\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph140 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0ˇˇˇˇˇˇ\0\0\0\0\0"
+    "\0\0\0\0\0—è—è—è—è—è—è\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph141 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇ\0\0\0\0\0"
+    "—Ä—Ä—Ä—Ä—Ä—è—è—è—è—è—è\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph142 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xfˇˇˇˇˇˇ\0\0\0\0\0"
+    "\xf\xf\xf\xf\xf—è—è—è—è—è—è\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph143 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇˇˇˇˇˇ\0\0\0\0\0"
+    "—è—è—è—è—è—è—è—è—è—è—è\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph144 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0\0\0\0"
+    "\0\0\0\0\0\0\0\0\0\0\0—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph145 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0"
+    "—Ä—Ä—Ä—Ä—Ä\0\0\0\0\0\0—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph146 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf\0\0\0\0\0\0"
+    "\xf\xf\xf\xf\xf\0\0\0\0\0\0—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph147 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ\0\0\0\0\0\0"
+    "—è—è—è—è—è\0\0\0\0\0\0—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph148 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0"
+    "\0\0\0\0\0—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph149 = {
     8, 16, /* width, height */
-    ""
+    "—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph150 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf"
+    "\xf\xf\xf\xf\xf—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph151 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ"
+    "—è—è—è—è—è—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph152 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\xf\xf\xf\xf\xf\xf"
+    "\0\0\0\0\0\xf\xf\xf\xf\xf\xf—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph153 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf\xf"
+    "—Ä—Ä—Ä—Ä—Ä\xf\xf\xf\xf\xf\xf—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph154 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf"
+    "\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph155 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ\xf\xf\xf\xf\xf\xf"
+    "—è—è—è—è—è\xf\xf\xf\xf\xf\xf—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph156 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0ˇˇˇˇˇˇ"
+    "\0\0\0\0\0—è—è—è—è—è—è—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph157 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇ"
+    "—Ä—Ä—Ä—Ä—Ä—è—è—è—è—è—è—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph158 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xfˇˇˇˇˇˇ"
+    "\xf\xf\xf\xf\xf—è—è—è—è—è—è—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph159 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇˇˇˇˇˇ"
+    "—è—è—è—è—è—è—è—è—è—è—è—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font0_glyph160 = {
@@ -823,7 +823,7 @@ static FONT_GLYPH korvet_font0_glyph160 = {
 
 static FONT_GLYPH korvet_font0_glyph161 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\xf\xf\xf\xf\xf"
+    "—Ä—Ä—Ä—Ä—Ä\0\0\0\0\0\0\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph162 = {
@@ -833,27 +833,27 @@ static FONT_GLYPH korvet_font0_glyph162 = {
 
 static FONT_GLYPH korvet_font0_glyph163 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ\0\0\0\0\0\0\xf\xf\xf\xf\xf"
+    "—è—è—è—è—è\0\0\0\0\0\0\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph164 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\xf\xf\xf\xf\xf"
+    "\0\0\0\0\0—Ä—Ä—Ä—Ä—Ä—Ä\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph165 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf"
+    "—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph166 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf"
+    "\xf\xf\xf\xf\xf—Ä—Ä—Ä—Ä—Ä—Ä\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph167 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ\xf\xf\xf\xf\xf"
+    "—è—è—è—è—è—Ä—Ä—Ä—Ä—Ä—Ä\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph168 = {
@@ -863,7 +863,7 @@ static FONT_GLYPH korvet_font0_glyph168 = {
 
 static FONT_GLYPH korvet_font0_glyph169 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf"
+    "—Ä—Ä—Ä—Ä—Ä\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph170 = {
@@ -873,207 +873,207 @@ static FONT_GLYPH korvet_font0_glyph170 = {
 
 static FONT_GLYPH korvet_font0_glyph171 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf"
+    "—è—è—è—è—è\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph172 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0ˇˇˇˇˇˇ\xf\xf\xf\xf\xf"
+    "\0\0\0\0\0—è—è—è—è—è—è\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph173 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇ\xf\xf\xf\xf\xf"
+    "—Ä—Ä—Ä—Ä—Ä—è—è—è—è—è—è\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph174 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xfˇˇˇˇˇˇ\xf\xf\xf\xf\xf"
+    "\xf\xf\xf\xf\xf—è—è—è—è—è—è\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph175 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇˇˇˇˇˇ\xf\xf\xf\xf\xf"
+    "—è—è—è—è—è—è—è—è—è—è—è\xf\xf\xf\xf\xf"
 };
 
 static FONT_GLYPH korvet_font0_glyph176 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0\0\0\0ˇˇˇˇˇ"
+    "\0\0\0\0\0\0\0\0\0\0\0—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph177 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0ˇˇˇˇˇ"
+    "—Ä—Ä—Ä—Ä—Ä\0\0\0\0\0\0—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph178 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf\0\0\0\0\0\0ˇˇˇˇˇ"
+    "\xf\xf\xf\xf\xf\0\0\0\0\0\0—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph179 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ\0\0\0\0\0\0ˇˇˇˇˇ"
+    "—è—è—è—è—è\0\0\0\0\0\0—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph180 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0ˇˇˇˇˇ"
+    "\0\0\0\0\0—Ä—Ä—Ä—Ä—Ä—Ä—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph181 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ"
+    "—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph182 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xfˇˇˇˇˇ"
+    "\xf\xf\xf\xf\xf—Ä—Ä—Ä—Ä—Ä—Ä—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph183 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇˇˇˇˇ"
+    "—è—è—è—è—è—Ä—Ä—Ä—Ä—Ä—Ä—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph184 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\xf\xf\xf\xf\xf\xfˇˇˇˇˇ"
+    "\0\0\0\0\0\xf\xf\xf\xf\xf\xf—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph185 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf\xfˇˇˇˇˇ"
+    "—Ä—Ä—Ä—Ä—Ä\xf\xf\xf\xf\xf\xf—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph186 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf\xfˇˇˇˇˇ"
+    "\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf\xf—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph187 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇ\xf\xf\xf\xf\xf\xfˇˇˇˇˇ"
+    "—è—è—è—è—è\xf\xf\xf\xf\xf\xf—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph188 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0ˇˇˇˇˇˇˇˇˇˇˇ"
+    "\0\0\0\0\0—è—è—è—è—è—è—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph189 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇˇˇˇˇˇ"
+    "—Ä—Ä—Ä—Ä—Ä—è—è—è—è—è—è—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph190 = {
     8, 16, /* width, height */
-    "\xf\xf\xf\xf\xfˇˇˇˇˇˇˇˇˇˇˇ"
+    "\xf\xf\xf\xf\xf—è—è—è—è—è—è—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph191 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ"
+    "—è—è—è—è—è—è—è—è—è—è—è—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font0_glyph192 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0Ã÷ˆ÷÷Ã\0\0\0\0"
+    "\0\0\0\0\0\0–ú–¶—Ü–¶–¶–ú\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph193 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0x\f|ÃÃv\0\0\0\0"
+    "\0\0\0\0\0\0x\f|–ú–úv\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph194 = {
     8, 16, /* width, height */
-    "\0\0\0\x6|¿¸∆∆∆∆|\0\0\0\0"
+    "\0\0\0\x6|–ê—å–ñ–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph195 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0ÃÃÃÃÃ˛\x6\x2\0\0"
+    "\0\0\0\0\0\0–ú–ú–ú–ú–ú—é\x6\x2\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph196 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0""8llll˛∆Ç\0\0"
+    "\0\0\0\0\0\0""8llll—é–ñ‚Äö\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph197 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆˛¿∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ—é–ê–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph198 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0~€€€~\x18\x18\x18\0\0"
+    "\0\0\0\0\0\0~–´–´–´~\x18\x18\x18\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph199 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0˛fb``\0\0\0\0"
+    "\0\0\0\0\0\0—éfb``—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph200 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆l88l∆\0\0\0\0"
+    "\0\0\0\0\0\0–ñl88l–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph201 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆ŒﬁˆÊ∆\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–û–Æ—Ü–∂–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph202 = {
     8, 16, /* width, height */
-    "\0\0\0(8\0∆ŒﬁˆÊ∆\0\0\0\0"
+    "\0\0\0(8\0–ñ–û–Æ—Ü–∂–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph203 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0Êlx~fÊ\0\0\0\0"
+    "\0\0\0\0\0\0–∂lx~f–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph204 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\xe""6fff∆\0\0\0\0"
+    "\0\0\0\0\0\0\xe""6fff–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph205 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆Ó˛÷∆∆\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–æ—é–¶–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph206 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆˛∆∆∆\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–ñ—é–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph207 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆∆∆∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph208 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0˛∆∆∆∆∆\0\0\0\0"
+    "\0\0\0\0\0\0—é–ñ–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph209 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0~ÃÃ|lŒ\0\0\0\0"
+    "\0\0\0\0\0\0~–ú–ú|l–û\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph210 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0¸fff|``\0\0"
+    "\0\0\0\0\0\0—åfff|``—Ä\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph211 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆¿¿∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ–ê–ê–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph212 = {
@@ -1083,217 +1083,217 @@ static FONT_GLYPH korvet_font0_glyph212 = {
 
 static FONT_GLYPH korvet_font0_glyph213 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆∆∆~\x6\x6|\0\0"
+    "\0\0\0\0\0\0–ñ–ñ–ñ–ñ~\x6\x6|\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph214 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0÷÷||÷÷\0\0\0\0"
+    "\0\0\0\0\0\0–¶–¶||–¶–¶\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph215 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0¸f|ff¸\0\0\0\0"
+    "\0\0\0\0\0\0—åf|ff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph216 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0`|ff¸\0\0\0\0"
+    "\0\0\0\0\0\0—Ä`|ff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph217 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆ˆﬁﬁˆ\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–ñ—Ü–Æ–Æ—Ü\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph218 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆\x1c\x6∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ\x1c\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph219 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0÷÷÷÷÷˛\0\0\0\0"
+    "\0\0\0\0\0\0–¶–¶–¶–¶–¶—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph220 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆\x1e\x6∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ\x1e\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph221 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0÷÷÷÷÷˛\x6\x2\0\0"
+    "\0\0\0\0\0\0–¶–¶–¶–¶–¶—é\x6\x2\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph222 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆∆~\x6\x6\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–ñ–ñ~\x6\x6\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph223 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∞<66<\0\0\0\0"
+    "\0\0\0\0\0\0—Ä¬∞<66<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph224 = {
     8, 16, /* width, height */
-    "\0\0\0Ã÷÷÷ˆ÷÷÷Ã\0\0\0\0"
+    "\0\0\0–ú–¶–¶–¶—Ü–¶–¶–¶–ú\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph225 = {
     8, 16, /* width, height */
-    "\0\0\0\x1e""6f∆∆˛∆∆∆\0\0\0\0"
+    "\0\0\0\x1e""6f–ñ–ñ—é–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph226 = {
     8, 16, /* width, height */
-    "\0\0\0˛fb`|fff¸\0\0\0\0"
+    "\0\0\0—éfb`|fff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph227 = {
     8, 16, /* width, height */
-    "\0\0\0ÃÃÃÃÃÃÃÃ˛\x6\x2\0\0"
+    "\0\0\0–ú–ú–ú–ú–ú–ú–ú–ú—é\x6\x2\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph228 = {
     8, 16, /* width, height */
-    "\0\0\0<lllllll˛∆Ç\0\0"
+    "\0\0\0<lllllll—é–ñ‚Äö\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph229 = {
     8, 16, /* width, height */
-    "\0\0\0˛fbhxhbf˛\0\0\0\0"
+    "\0\0\0—éfbhxhbf—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph230 = {
     8, 16, /* width, height */
-    "\0\0\0~€€€€~\x18\x18<\0\0\0\0"
+    "\0\0\0~–´–´–´–´~\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph231 = {
     8, 16, /* width, height */
-    "\0\0\0˛fb`````\0\0\0\0"
+    "\0\0\0—éfb`````—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph232 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆l88l∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–ñl88l–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph233 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆ŒﬁˆÊ∆∆\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–û–Æ—Ü–∂–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph234 = {
     8, 16, /* width, height */
-    "\0(8∆∆∆ŒﬁˆÊ∆∆\0\0\0\0"
+    "\0(8–ñ–ñ–ñ–û–Æ—Ü–∂–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph235 = {
     8, 16, /* width, height */
-    "\0\0\0ÊfllxllfÊ\0\0\0\0"
+    "\0\0\0–∂fllxllf–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph236 = {
     8, 16, /* width, height */
-    "\0\0\0\xe""6ffffff∆\0\0\0\0"
+    "\0\0\0\xe""6ffffff–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph237 = {
     8, 16, /* width, height */
-    "\0\0\0∆Ó˛÷∆∆∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–æ—é–¶–ñ–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph238 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆˛∆∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ—é–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph239 = {
     8, 16, /* width, height */
-    "\0\0\0""8l∆∆∆∆∆l8\0\0\0\0"
+    "\0\0\0""8l–ñ–ñ–ñ–ñ–ñl8\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph240 = {
     8, 16, /* width, height */
-    "\0\0\0˛∆∆∆∆∆∆∆∆\0\0\0\0"
+    "\0\0\0—é–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph241 = {
     8, 16, /* width, height */
-    "\0\0\0~ÃÃÃ|<lÃŒ\0\0\0\0"
+    "\0\0\0~–ú–ú–ú|<l–ú–û\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph242 = {
     8, 16, /* width, height */
-    "\0\0\0¸fff|```\0\0\0\0"
+    "\0\0\0—åfff|```—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph243 = {
     8, 16, /* width, height */
-    "\0\0\0<f¬¿¿¿¬f<\0\0\0\0"
+    "\0\0\0<f–í–ê–ê–ê–íf<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph244 = {
     8, 16, /* width, height */
-    "\0\0\0ˇ€ô\x18\x18\x18\x18\x18<\0\0\0\0"
+    "\0\0\0—è–´‚Ñ¢\x18\x18\x18\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph245 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆~\x6\x6\x6|\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ~\x6\x6\x6|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph246 = {
     8, 16, /* width, height */
-    "\0\0\0÷÷÷|8|÷÷÷\0\0\0\0"
+    "\0\0\0–¶–¶–¶|8|–¶–¶–¶\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph247 = {
     8, 16, /* width, height */
-    "\0\0\0¸fff|fff¸\0\0\0\0"
+    "\0\0\0—åfff|fff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph248 = {
     8, 16, /* width, height */
-    "\0\0\0```|fff¸\0\0\0\0"
+    "\0\0\0—Ä```|fff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph249 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆ˆﬁﬁﬁˆ\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ—Ü–Æ–Æ–Æ—Ü\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph250 = {
     8, 16, /* width, height */
-    "\0\0\0|∆\x6\x6<\x6\x6∆|\0\0\0\0"
+    "\0\0\0|–ñ\x6\x6<\x6\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph251 = {
     8, 16, /* width, height */
-    "\0\0\0÷÷÷÷÷÷÷÷˛\0\0\0\0"
+    "\0\0\0–¶–¶–¶–¶–¶–¶–¶–¶—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph252 = {
     8, 16, /* width, height */
-    "\0\0\0|∆\x6\x6>\x6\x6∆|\0\0\0\0"
+    "\0\0\0|–ñ\x6\x6>\x6\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph253 = {
     8, 16, /* width, height */
-    "\0\0\0÷÷÷÷÷÷÷÷˛\x6\x2\0\0"
+    "\0\0\0–¶–¶–¶–¶–¶–¶–¶–¶—é\x6\x2\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph254 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆~\x6\x6\x6\x6\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ~\x6\x6\x6\x6\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font0_glyph255 = {
     8, 16, /* width, height */
-    "\0\0\0∞00<666<\0\0\0\0"
+    "\0\0\0—Ä¬∞00<666<\0\0\0\0"
 };
 
 static FONT_GLYPH* korvet_font0_range0_glyphs[] = {
@@ -1584,32 +1584,32 @@ static FONT_GLYPH korvet_font1_glyph0 = {
 
 static FONT_GLYPH korvet_font1_glyph1 = {
     8, 16, /* width, height */
-    "\0\0\0~Å•ÅÅΩôÅ~\0\0\0\0"
+    "\0\0\0~–É“ê–É–É–Ö‚Ñ¢–É~\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph2 = {
     8, 16, /* width, height */
-    "\0\0\0~ˇ€ˇˇ√Áˇ~\0\0\0\0"
+    "\0\0\0~—è–´—è—è–ì–∑—è~\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph3 = {
     8, 16, /* width, height */
-    "\0\0\0\0l˛˛˛˛|8\x10\0\0\0\0"
+    "\0\0\0\0l—é—é—é—é|8\x10\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph4 = {
     8, 16, /* width, height */
-    "\0\0\0\0\x10""8|˛|8\x10\0\0\0\0\0"
+    "\0\0\0\0\x10""8|—é|8\x10\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph5 = {
     8, 16, /* width, height */
-    "\0\0\0\x18<<ÁÁÁ\x18\x18<\0\0\0\0"
+    "\0\0\0\x18<<–∑–∑–∑\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph6 = {
     8, 16, /* width, height */
-    "\0\0\0\x18<~ˇˇ~\x18\x18<\0\0\0\0"
+    "\0\0\0\x18<~—è—è~\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph7 = {
@@ -1619,7 +1619,7 @@ static FONT_GLYPH korvet_font1_glyph7 = {
 
 static FONT_GLYPH korvet_font1_glyph8 = {
     8, 16, /* width, height */
-    "˛˛˛˛˛˛Ó∆∆Ó˛˛˛˛˛˛"
+    "—é—é—é—é—é—é–æ–ñ–ñ–æ—é—é—é—é—é—é"
 };
 
 static FONT_GLYPH korvet_font1_glyph9 = {
@@ -1629,32 +1629,32 @@ static FONT_GLYPH korvet_font1_glyph9 = {
 
 static FONT_GLYPH korvet_font1_glyph10 = {
     8, 16, /* width, height */
-    "\0\0ˇˇˇ√ôΩΩô√ˇˇˇ\0\0"
+    "\0\0—è—è—è–ì‚Ñ¢–Ö–Ö‚Ñ¢–ì—è—è—è\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph11 = {
     8, 16, /* width, height */
-    "\0\0\0\x1f\xf\x19\x18\x18\x18|ÃÃx\0\0\0"
+    "\0\0\0\x1f\xf\x19\x18\x18\x18|–ú–úx\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph12 = {
     8, 16, /* width, height */
-    "\0\0\0xÃÃx000¸00\0\0\0"
+    "\0\0\0x–ú–úx000—å00\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph13 = {
     8, 16, /* width, height */
-    "\0\0\0?3?00000p‡\0\0\0"
+    "\0\0\0?3?00000p–∞\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph14 = {
     8, 16, /* width, height */
-    "\0\0\0~f~fffnÓÏ¿\0\0\0"
+    "\0\0\0~f~fffn–æ–º–ê\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph15 = {
     8, 16, /* width, height */
-    "\0\0\0\x18\x18€<Á<€\x18\x18\0\0\0\0"
+    "\0\0\0\x18\x18–´<–∑<–´\x18\x18\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph16 = {
@@ -1679,17 +1679,17 @@ static FONT_GLYPH korvet_font1_glyph19 = {
 
 static FONT_GLYPH korvet_font1_glyph20 = {
     8, 16, /* width, height */
-    "\0\0\0~∂∂∂∂v666\0\0\0\0"
+    "\0\0\0~¬∂¬∂¬∂¬∂v666\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph21 = {
     8, 16, /* width, height */
-    "\0\0xÃ`8l∆∆l8\ff<\0\0"
+    "\0\0x–ú`8l–ñ–ñl8\ff<\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph22 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0\0˛˛˛\0\0\0\0"
+    "\0\0\0\0\0\0\0\0\0—é—é—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph23 = {
@@ -1709,32 +1709,32 @@ static FONT_GLYPH korvet_font1_glyph25 = {
 
 static FONT_GLYPH korvet_font1_glyph26 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\x18\f˛\f\x18\0\0\0\0\0\0"
+    "\0\0\0\0\0\x18\f—é\f\x18\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph27 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0""0`˛`0\0\0\0\0\0\0"
+    "\0\0\0\0\0""0`—é`0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph28 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0‡‡‡˛\0\0\0\0\0"
+    "\0\0\0\0\0\0\0–∞–∞–∞—é\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph29 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0$fˇf$\0\0\0\0\0\0"
+    "\0\0\0\0\0$f—èf$\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph30 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\x18<~ˇˇ\0\0\0\0\0\0"
+    "\0\0\0\0\0\x18<~—è—è\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph31 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0ˇˇ~<\x18\0\0\0\0\0\0"
+    "\0\0\0\0\0—è—è~<\x18\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph32 = {
@@ -1754,22 +1754,22 @@ static FONT_GLYPH korvet_font1_glyph34 = {
 
 static FONT_GLYPH korvet_font1_glyph35 = {
     8, 16, /* width, height */
-    "\0\0\0ll˛lll˛ll\0\0\0\0"
+    "\0\0\0ll—élll—éll\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph36 = {
     8, 16, /* width, height */
-    "\0\x10\x10|∆ƒ¿8\x6""F∆|\x10\x10\0\0"
+    "\0\x10\x10|–ñ–î–ê8\x6""F–ñ|\x10\x10\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph37 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0¬∆\f\x18""0f∆\0\0\0\0"
+    "\0\0\0\0\0–í–ñ\f\x18""0f–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph38 = {
     8, 16, /* width, height */
-    "\0\0\0""8ll8v‹ÃÃv\0\0\0\0"
+    "\0\0\0""8ll8v–¨–ú–úv\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph39 = {
@@ -1789,12 +1789,12 @@ static FONT_GLYPH korvet_font1_glyph41 = {
 
 static FONT_GLYPH korvet_font1_glyph42 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0""f<ˇ<f\0\0\0\0\0\0"
+    "\0\0\0\0\0""f<—è<f\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph43 = {
     8, 16, /* width, height */
-    "\0\0\0\0\x18\x18\x18ˇ\x18\x18\x18\0\0\0\0\0"
+    "\0\0\0\0\x18\x18\x18—è\x18\x18\x18\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph44 = {
@@ -1804,7 +1804,7 @@ static FONT_GLYPH korvet_font1_glyph44 = {
 
 static FONT_GLYPH korvet_font1_glyph45 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0˛\0\0\0\0\0\0\0\0"
+    "\0\0\0\0\0\0\0—é\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph46 = {
@@ -1814,12 +1814,12 @@ static FONT_GLYPH korvet_font1_glyph46 = {
 
 static FONT_GLYPH korvet_font1_glyph47 = {
     8, 16, /* width, height */
-    "\0\0\0\x2\x6\f\x18""0`¿Ä\0\0\0\0\0"
+    "\0\0\0\x2\x6\f\x18""0`–ê–Ç\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph48 = {
     8, 16, /* width, height */
-    "\0\0\0|∆ŒﬁˆÊ∆∆|\0\0\0\0"
+    "\0\0\0|–ñ–û–Æ—Ü–∂–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph49 = {
@@ -1829,42 +1829,42 @@ static FONT_GLYPH korvet_font1_glyph49 = {
 
 static FONT_GLYPH korvet_font1_glyph50 = {
     8, 16, /* width, height */
-    "\0\0\0|∆\x6\f\x18""0`∆˛\0\0\0\0"
+    "\0\0\0|–ñ\x6\f\x18""0`–ñ—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph51 = {
     8, 16, /* width, height */
-    "\0\0\0|∆\x6\x6<\x6\x6∆|\0\0\0\0"
+    "\0\0\0|–ñ\x6\x6<\x6\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph52 = {
     8, 16, /* width, height */
-    "\0\0\0\f\x1c<lÃ˛\f\f\x1e\0\0\0\0"
+    "\0\0\0\f\x1c<l–ú—é\f\f\x1e\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph53 = {
     8, 16, /* width, height */
-    "\0\0\0˛¿¿¿¸\x6\x6∆|\0\0\0\0"
+    "\0\0\0—é–ê–ê–ê—å\x6\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph54 = {
     8, 16, /* width, height */
-    "\0\0\0""8`¿¿¸∆∆∆|\0\0\0\0"
+    "\0\0\0""8`–ê–ê—å–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph55 = {
     8, 16, /* width, height */
-    "\0\0\0˛∆\x6\f\x18""0000\0\0\0\0"
+    "\0\0\0—é–ñ\x6\f\x18""0000\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph56 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆∆|∆∆∆|\0\0\0\0"
+    "\0\0\0|–ñ–ñ–ñ|–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph57 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆∆~\x6\x6\fx\0\0\0\0"
+    "\0\0\0|–ñ–ñ–ñ~\x6\x6\fx\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph58 = {
@@ -1894,52 +1894,52 @@ static FONT_GLYPH korvet_font1_glyph62 = {
 
 static FONT_GLYPH korvet_font1_glyph63 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆\f\x18\x18\0\x18\x18\0\0\0\0"
+    "\0\0\0|–ñ–ñ\f\x18\x18\0\x18\x18\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph64 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆ﬁﬁﬁ‹¿|\0\0\0\0"
+    "\0\0\0|–ñ–ñ–Æ–Æ–Æ–¨–ê|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph65 = {
     8, 16, /* width, height */
-    "\0\0\0\x10""8l∆∆˛∆∆∆\0\0\0\0"
+    "\0\0\0\x10""8l–ñ–ñ—é–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph66 = {
     8, 16, /* width, height */
-    "\0\0\0¸fff|fff¸\0\0\0\0"
+    "\0\0\0—åfff|fff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph67 = {
     8, 16, /* width, height */
-    "\0\0\0<f¬¿¿¿¬f<\0\0\0\0"
+    "\0\0\0<f–í–ê–ê–ê–íf<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph68 = {
     8, 16, /* width, height */
-    "\0\0\0¯lfffffl¯\0\0\0\0"
+    "\0\0\0—àlfffffl—à\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph69 = {
     8, 16, /* width, height */
-    "\0\0\0˛fbhxhbf˛\0\0\0\0"
+    "\0\0\0—éfbhxhbf—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph70 = {
     8, 16, /* width, height */
-    "\0\0\0˛fbhxh``\0\0\0\0"
+    "\0\0\0—éfbhxh``—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph71 = {
     8, 16, /* width, height */
-    "\0\0\0<f¬¿¿Œ∆f:\0\0\0\0"
+    "\0\0\0<f–í–ê–ê–û–ñf:\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph72 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆˛∆∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ—é–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph73 = {
@@ -1949,87 +1949,87 @@ static FONT_GLYPH korvet_font1_glyph73 = {
 
 static FONT_GLYPH korvet_font1_glyph74 = {
     8, 16, /* width, height */
-    "\0\0\0\x1e\f\f\f\f\fÃÃx\0\0\0\0"
+    "\0\0\0\x1e\f\f\f\f\f–ú–úx\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph75 = {
     8, 16, /* width, height */
-    "\0\0\0ÊfllxllfÊ\0\0\0\0"
+    "\0\0\0–∂fllxllf–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph76 = {
     8, 16, /* width, height */
-    "\0\0\0`````bf˛\0\0\0\0"
+    "\0\0\0—Ä`````bf—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph77 = {
     8, 16, /* width, height */
-    "\0\0\0∆Ó˛÷∆∆∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–æ—é–¶–ñ–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph78 = {
     8, 16, /* width, height */
-    "\0\0\0∆ÊˆﬁŒ∆∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–∂—Ü–Æ–û–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph79 = {
     8, 16, /* width, height */
-    "\0\0\0""8l∆∆∆∆∆l8\0\0\0\0"
+    "\0\0\0""8l–ñ–ñ–ñ–ñ–ñl8\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph80 = {
     8, 16, /* width, height */
-    "\0\0\0¸fff|```\0\0\0\0"
+    "\0\0\0—åfff|```—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph81 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆∆∆÷ﬁ|\f\xe\0\0\0"
+    "\0\0\0|–ñ–ñ–ñ–ñ–¶–Æ|\f\xe\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph82 = {
     8, 16, /* width, height */
-    "\0\0\0¸fff|lffÊ\0\0\0\0"
+    "\0\0\0—åfff|lff–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph83 = {
     8, 16, /* width, height */
-    "\0\0\0|∆∆`8\f∆∆|\0\0\0\0"
+    "\0\0\0|–ñ–ñ`8\f–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph84 = {
     8, 16, /* width, height */
-    "\0\0\0ˇ€ô\x18\x18\x18\x18\x18<\0\0\0\0"
+    "\0\0\0—è–´‚Ñ¢\x18\x18\x18\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph85 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆∆∆∆∆|\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph86 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆∆∆l8\x10\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ–ñ–ñl8\x10\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph87 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆÷÷˛Ól\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ–¶–¶—é–æl\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph88 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆l8l∆∆\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñl8l–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph89 = {
     8, 16, /* width, height */
-    "\0\0\0√√√f<\x18\x18\x18<\0\0\0\0"
+    "\0\0\0–ì–ì–ìf<\x18\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph90 = {
     8, 16, /* width, height */
-    "\0\0\0ˇ√Ü\f\x18""0a√ˇ\0\0\0\0"
+    "\0\0\0—è–ì‚Ä†\f\x18""0a–ì—è\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph91 = {
@@ -2039,7 +2039,7 @@ static FONT_GLYPH korvet_font1_glyph91 = {
 
 static FONT_GLYPH korvet_font1_glyph92 = {
     8, 16, /* width, height */
-    "\0\0\0\0Ä¿`0\x18\f\x6\x2\0\0\0\0"
+    "\0\0\0\0–Ç–ê`0\x18\f\x6\x2\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph93 = {
@@ -2049,12 +2049,12 @@ static FONT_GLYPH korvet_font1_glyph93 = {
 
 static FONT_GLYPH korvet_font1_glyph94 = {
     8, 16, /* width, height */
-    "\0\x10""8l∆\0\0\0\0\0\0\0\0\0\0\0"
+    "\0\x10""8l–ñ\0\0\0\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph95 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0\0\0\0\0\0ˇ\0\0"
+    "\0\0\0\0\0\0\0\0\0\0\0\0\0—è\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph96 = {
@@ -2064,27 +2064,27 @@ static FONT_GLYPH korvet_font1_glyph96 = {
 
 static FONT_GLYPH korvet_font1_glyph97 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0x\f|ÃÃv\0\0\0\0"
+    "\0\0\0\0\0\0x\f|–ú–úv\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph98 = {
     8, 16, /* width, height */
-    "\0\0\0‡``xlfff‹\0\0\0\0"
+    "\0\0\0–∞``xlfff–¨\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph99 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆¿¿∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ–ê–ê–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph100 = {
     8, 16, /* width, height */
-    "\0\0\0\x1c\f\f<lÃÃÃv\0\0\0\0"
+    "\0\0\0\x1c\f\f<l–ú–ú–úv\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph101 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆˛¿∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ—é–ê–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph102 = {
@@ -2094,12 +2094,12 @@ static FONT_GLYPH korvet_font1_glyph102 = {
 
 static FONT_GLYPH korvet_font1_glyph103 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0vÃÃÃ|\fÃx\0\0"
+    "\0\0\0\0\0\0v–ú–ú–ú|\f–úx\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph104 = {
     8, 16, /* width, height */
-    "\0\0\0‡``lvfffÊ\0\0\0\0"
+    "\0\0\0–∞``lvfff–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph105 = {
@@ -2114,7 +2114,7 @@ static FONT_GLYPH korvet_font1_glyph106 = {
 
 static FONT_GLYPH korvet_font1_glyph107 = {
     8, 16, /* width, height */
-    "\0\0\0‡``flxlfÊ\0\0\0\0"
+    "\0\0\0–∞``flxlf–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph108 = {
@@ -2124,72 +2124,72 @@ static FONT_GLYPH korvet_font1_glyph108 = {
 
 static FONT_GLYPH korvet_font1_glyph109 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0Êˇ€€€€\0\0\0\0"
+    "\0\0\0\0\0\0–∂—è–´–´–´–´\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph110 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0‹fffff\0\0\0\0"
+    "\0\0\0\0\0\0–¨fffff\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph111 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆∆∆∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph112 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0¸fff|``\0\0"
+    "\0\0\0\0\0\0—åfff|``—Ä\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph113 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0vÃÃÃ|\f\f\x1e\0\0"
+    "\0\0\0\0\0\0v–ú–ú–ú|\f\f\x1e\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph114 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0‹vf``\0\0\0\0"
+    "\0\0\0\0\0\0–¨vf``—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph115 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆p\x1c∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñp\x1c–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph116 = {
     8, 16, /* width, height */
-    "\0\0\0\0\x10""00¸006\x1c\0\0\0\0"
+    "\0\0\0\0\x10""00—å006\x1c\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph117 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0ÃÃÃÃÃv\0\0\0\0"
+    "\0\0\0\0\0\0–ú–ú–ú–ú–úv\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph118 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆∆l8\x10\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–ñ–ñl8\x10\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph119 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆÷÷˛l\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–ñ–¶–¶—él\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph120 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆l88l∆\0\0\0\0"
+    "\0\0\0\0\0\0–ñl88l–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph121 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆∆∆~\x6\fx\0\0"
+    "\0\0\0\0\0\0–ñ–ñ–ñ–ñ~\x6\fx\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph122 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0˛Ã\x18""0f˛\0\0\0\0"
+    "\0\0\0\0\0\0—é–ú\x18""0f—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph123 = {
@@ -2209,27 +2209,27 @@ static FONT_GLYPH korvet_font1_glyph125 = {
 
 static FONT_GLYPH korvet_font1_glyph126 = {
     8, 16, /* width, height */
-    "\0\0\0v‹\0\0\0\0\0\0\0\0\0\0\0"
+    "\0\0\0v–¨\0\0\0\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph127 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\x10""8l∆∆∆˛\0\0\0\0"
+    "\0\0\0\0\0\x10""8l–ñ–ñ–ñ—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph128 = {
     8, 16, /* width, height */
-    "\"à\"à\"à\"à\"à\"à\"à\"à"
+    "\"‚Ç¨\"‚Ç¨\"‚Ç¨\"‚Ç¨\"‚Ç¨\"‚Ç¨\"‚Ç¨\"‚Ç¨"
 };
 
 static FONT_GLYPH korvet_font1_glyph129 = {
     8, 16, /* width, height */
-    "U™U™U™U™U™U™U™U™"
+    "U–ÑU–ÑU–ÑU–ÑU–ÑU–ÑU–ÑU–Ñ"
 };
 
 static FONT_GLYPH korvet_font1_glyph130 = {
     8, 16, /* width, height */
-    "›w›w›w›w›w›w›w›w"
+    "–≠w–≠w–≠w–≠w–≠w–≠w–≠w–≠w"
 };
 
 static FONT_GLYPH korvet_font1_glyph131 = {
@@ -2239,32 +2239,32 @@ static FONT_GLYPH korvet_font1_glyph131 = {
 
 static FONT_GLYPH korvet_font1_glyph132 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18\x18\x18¯\x18\x18\x18\x18\x18\x18\x18"
+    "\x18\x18\x18\x18\x18\x18\x18\x18—à\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH korvet_font1_glyph133 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18¯\x18¯\x18\x18\x18\x18\x18\x18\x18"
+    "\x18\x18\x18\x18\x18\x18—à\x18—à\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH korvet_font1_glyph134 = {
     8, 16, /* width, height */
-    "llllllllÏlllllll"
+    "llllllll–ºlllllll"
 };
 
 static FONT_GLYPH korvet_font1_glyph135 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0¸lllllll"
+    "\0\0\0\0\0\0\0\0—ålllllll"
 };
 
 static FONT_GLYPH korvet_font1_glyph136 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0¯\x18¯\x18\x18\x18\x18\x18\x18\x18"
+    "\0\0\0\0\0\0—à\x18—à\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH korvet_font1_glyph137 = {
     8, 16, /* width, height */
-    "llllllÏ\fÏlllllll"
+    "llllll–º\f–ºlllllll"
 };
 
 static FONT_GLYPH korvet_font1_glyph138 = {
@@ -2274,27 +2274,27 @@ static FONT_GLYPH korvet_font1_glyph138 = {
 
 static FONT_GLYPH korvet_font1_glyph139 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0¸\fÏlllllll"
+    "\0\0\0\0\0\0—å\f–ºlllllll"
 };
 
 static FONT_GLYPH korvet_font1_glyph140 = {
     8, 16, /* width, height */
-    "llllllÏ\f¸\0\0\0\0\0\0\0"
+    "llllll–º\f—å\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph141 = {
     8, 16, /* width, height */
-    "llllllll¸\0\0\0\0\0\0\0"
+    "llllllll—å\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph142 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18¯\x18¯\0\0\0\0\0\0\0"
+    "\x18\x18\x18\x18\x18\x18—à\x18—à\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph143 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0¯\x18\x18\x18\x18\x18\x18\x18"
+    "\0\0\0\0\0\0\0\0—à\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH korvet_font1_glyph144 = {
@@ -2304,12 +2304,12 @@ static FONT_GLYPH korvet_font1_glyph144 = {
 
 static FONT_GLYPH korvet_font1_glyph145 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18\x18\x18ˇ\0\0\0\0\0\0\0"
+    "\x18\x18\x18\x18\x18\x18\x18\x18—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph146 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0ˇ\x18\x18\x18\x18\x18\x18\x18"
+    "\0\0\0\0\0\0\0\0—è\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH korvet_font1_glyph147 = {
@@ -2319,12 +2319,12 @@ static FONT_GLYPH korvet_font1_glyph147 = {
 
 static FONT_GLYPH korvet_font1_glyph148 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0ˇ\0\0\0\0\0\0\0"
+    "\0\0\0\0\0\0\0\0—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph149 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18\x18\x18ˇ\x18\x18\x18\x18\x18\x18\x18"
+    "\x18\x18\x18\x18\x18\x18\x18\x18—è\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH korvet_font1_glyph150 = {
@@ -2349,12 +2349,12 @@ static FONT_GLYPH korvet_font1_glyph153 = {
 
 static FONT_GLYPH korvet_font1_glyph154 = {
     8, 16, /* width, height */
-    "llllllÔ\0ˇ\0\0\0\0\0\0\0"
+    "llllll–ø\0—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph155 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0ˇ\0Ôlllllll"
+    "\0\0\0\0\0\0—è\0–ølllllll"
 };
 
 static FONT_GLYPH korvet_font1_glyph156 = {
@@ -2364,32 +2364,32 @@ static FONT_GLYPH korvet_font1_glyph156 = {
 
 static FONT_GLYPH korvet_font1_glyph157 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0ˇ\0ˇ\0\0\0\0\0\0\0"
+    "\0\0\0\0\0\0—è\0—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph158 = {
     8, 16, /* width, height */
-    "llllllÔ\0Ôlllllll"
+    "llllll–ø\0–ølllllll"
 };
 
 static FONT_GLYPH korvet_font1_glyph159 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18ˇ\0ˇ\0\0\0\0\0\0\0"
+    "\x18\x18\x18\x18\x18\x18—è\0—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph160 = {
     8, 16, /* width, height */
-    "llllllllˇ\0\0\0\0\0\0\0"
+    "llllllll—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph161 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0ˇ\0ˇ\x18\x18\x18\x18\x18\x18\x18"
+    "\0\0\0\0\0\0—è\0—è\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH korvet_font1_glyph162 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0ˇlllllll"
+    "\0\0\0\0\0\0\0\0—èlllllll"
 };
 
 static FONT_GLYPH korvet_font1_glyph163 = {
@@ -2414,17 +2414,17 @@ static FONT_GLYPH korvet_font1_glyph166 = {
 
 static FONT_GLYPH korvet_font1_glyph167 = {
     8, 16, /* width, height */
-    "llllllllˇlllllll"
+    "llllllll—èlllllll"
 };
 
 static FONT_GLYPH korvet_font1_glyph168 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18ˇ\x18ˇ\x18\x18\x18\x18\x18\x18\x18"
+    "\x18\x18\x18\x18\x18\x18—è\x18—è\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH korvet_font1_glyph169 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18\x18\x18¯\0\0\0\0\0\0\0"
+    "\x18\x18\x18\x18\x18\x18\x18\x18—à\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph170 = {
@@ -2434,17 +2434,17 @@ static FONT_GLYPH korvet_font1_glyph170 = {
 
 static FONT_GLYPH korvet_font1_glyph171 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ"
+    "—è—è—è—è—è—è—è—è—è—è—è—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font1_glyph172 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0ˇˇˇˇˇˇˇˇ"
+    "\0\0\0\0\0\0\0\0—è—è—è—è—è—è—è—è"
 };
 
 static FONT_GLYPH korvet_font1_glyph173 = {
     8, 16, /* width, height */
-    ""
+    "—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH korvet_font1_glyph174 = {
@@ -2454,257 +2454,257 @@ static FONT_GLYPH korvet_font1_glyph174 = {
 
 static FONT_GLYPH korvet_font1_glyph175 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇˇˇ\0\0\0\0\0\0\0\0"
+    "—è—è—è—è—è—è—è—è\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph176 = {
     8, 16, /* width, height */
-    "\0\0\0\x1e""6f∆∆˛∆∆∆\0\0\0\0"
+    "\0\0\0\x1e""6f–ñ–ñ—é–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph177 = {
     8, 16, /* width, height */
-    "\0\0\0˛fb`|fff¸\0\0\0\0"
+    "\0\0\0—éfb`|fff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph178 = {
     8, 16, /* width, height */
-    "\0\0\0¸fff|fff¸\0\0\0\0"
+    "\0\0\0—åfff|fff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph179 = {
     8, 16, /* width, height */
-    "\0\0\0˛fb`````\0\0\0\0"
+    "\0\0\0—éfb`````—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph180 = {
     8, 16, /* width, height */
-    "\0\0\0<lllllll˛∆Ç\0\0"
+    "\0\0\0<lllllll—é–ñ‚Äö\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph181 = {
     8, 16, /* width, height */
-    "\0\0\0˛fbhxhbf˛\0\0\0\0"
+    "\0\0\0—éfbhxhbf—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph182 = {
     8, 16, /* width, height */
-    "\0\0\0÷÷÷|8|÷÷÷\0\0\0\0"
+    "\0\0\0–¶–¶–¶|8|–¶–¶–¶\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph183 = {
     8, 16, /* width, height */
-    "\0\0\0|∆\x6\x6<\x6\x6∆|\0\0\0\0"
+    "\0\0\0|–ñ\x6\x6<\x6\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph184 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆ŒﬁˆÊ∆∆\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–û–Æ—Ü–∂–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph185 = {
     8, 16, /* width, height */
-    "\0(8∆∆∆ŒﬁˆÊ∆∆\0\0\0\0"
+    "\0(8–ñ–ñ–ñ–û–Æ—Ü–∂–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph186 = {
     8, 16, /* width, height */
-    "\0\0\0ÊfllxllfÊ\0\0\0\0"
+    "\0\0\0–∂fllxllf–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph187 = {
     8, 16, /* width, height */
-    "\0\0\0\xe""6ffffff∆\0\0\0\0"
+    "\0\0\0\xe""6ffffff–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph188 = {
     8, 16, /* width, height */
-    "\0\0\0∆Ó˛÷∆∆∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–æ—é–¶–ñ–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph189 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆˛∆∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ—é–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph190 = {
     8, 16, /* width, height */
-    "\0\0\0""8l∆∆∆∆∆l8\0\0\0\0"
+    "\0\0\0""8l–ñ–ñ–ñ–ñ–ñl8\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph191 = {
     8, 16, /* width, height */
-    "\0\0\0˛∆∆∆∆∆∆∆∆\0\0\0\0"
+    "\0\0\0—é–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph192 = {
     8, 16, /* width, height */
-    "\0\0\0¸fff|```\0\0\0\0"
+    "\0\0\0—åfff|```—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph193 = {
     8, 16, /* width, height */
-    "\0\0\0<f¬¿¿¿¬f<\0\0\0\0"
+    "\0\0\0<f–í–ê–ê–ê–íf<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph194 = {
     8, 16, /* width, height */
-    "\0\0\0ˇ€ô\x18\x18\x18\x18\x18<\0\0\0\0"
+    "\0\0\0—è–´‚Ñ¢\x18\x18\x18\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph195 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆~\x6\x6\x6|\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ~\x6\x6\x6|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph196 = {
     8, 16, /* width, height */
-    "\0\0\0~€€€€~\x18\x18<\0\0\0\0"
+    "\0\0\0~–´–´–´–´~\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph197 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆l8l∆∆∆\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñl8l–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph198 = {
     8, 16, /* width, height */
-    "\0\0\0ÃÃÃÃÃÃÃÃ˛\x6\x2\0\0"
+    "\0\0\0–ú–ú–ú–ú–ú–ú–ú–ú—é\x6\x2\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph199 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆~\x6\x6\x6\x6\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ~\x6\x6\x6\x6\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph200 = {
     8, 16, /* width, height */
-    "\0\0\0÷÷÷÷÷÷÷÷˛\0\0\0\0"
+    "\0\0\0–¶–¶–¶–¶–¶–¶–¶–¶—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph201 = {
     8, 16, /* width, height */
-    "\0\0\0÷÷÷÷÷÷÷÷˛\x6\x2\0\0"
+    "\0\0\0–¶–¶–¶–¶–¶–¶–¶–¶—é\x6\x2\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph202 = {
     8, 16, /* width, height */
-    "\0\0\0∞00<666<\0\0\0\0"
+    "\0\0\0—Ä¬∞00<666<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph203 = {
     8, 16, /* width, height */
-    "\0\0\0∆∆∆∆ˆﬁﬁﬁˆ\0\0\0\0"
+    "\0\0\0–ñ–ñ–ñ–ñ—Ü–Æ–Æ–Æ—Ü\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph204 = {
     8, 16, /* width, height */
-    "\0\0\0```|fff¸\0\0\0\0"
+    "\0\0\0—Ä```|fff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph205 = {
     8, 16, /* width, height */
-    "\0\0\0|∆\x6\x6>\x6\x6∆|\0\0\0\0"
+    "\0\0\0|–ñ\x6\x6>\x6\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph206 = {
     8, 16, /* width, height */
-    "\0\0\0Ã÷÷÷ˆ÷÷÷Ã\0\0\0\0"
+    "\0\0\0–ú–¶–¶–¶—Ü–¶–¶–¶–ú\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph207 = {
     8, 16, /* width, height */
-    "\0\0\0~ÃÃÃ|<lÃŒ\0\0\0\0"
+    "\0\0\0~–ú–ú–ú|<l–ú–û\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph208 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0x\f|ÃÃv\0\0\0\0"
+    "\0\0\0\0\0\0x\f|–ú–úv\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph209 = {
     8, 16, /* width, height */
-    "\0\0\0\x6|¿¸∆∆∆∆|\0\0\0\0"
+    "\0\0\0\x6|–ê—å–ñ–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph210 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0¸f|ff¸\0\0\0\0"
+    "\0\0\0\0\0\0—åf|ff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph211 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0˛fb``\0\0\0\0"
+    "\0\0\0\0\0\0—éfb``—Ä\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph212 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0""8llll˛∆Ç\0\0"
+    "\0\0\0\0\0\0""8llll—é–ñ‚Äö\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph213 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆˛¿∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ—é–ê–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph214 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0÷÷||÷÷\0\0\0\0"
+    "\0\0\0\0\0\0–¶–¶||–¶–¶\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph215 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆\x1c\x6∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ\x1c\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph216 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆ŒﬁˆÊ∆\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–û–Æ—Ü–∂–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph217 = {
     8, 16, /* width, height */
-    "\0\0\0(8\0∆ŒﬁˆÊ∆\0\0\0\0"
+    "\0\0\0(8\0–ñ–û–Æ—Ü–∂–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph218 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0Êlx~fÊ\0\0\0\0"
+    "\0\0\0\0\0\0–∂lx~f–∂\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph219 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\xe""6fff∆\0\0\0\0"
+    "\0\0\0\0\0\0\xe""6fff–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph220 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆Ó˛÷∆∆\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–æ—é–¶–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph221 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆˛∆∆∆\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–ñ—é–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph222 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆∆∆∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ–ñ–ñ–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph223 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0˛∆∆∆∆∆\0\0\0\0"
+    "\0\0\0\0\0\0—é–ñ–ñ–ñ–ñ–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph224 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0¸fff|``\0\0"
+    "\0\0\0\0\0\0—åfff|``—Ä\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph225 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆¿¿∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ–ê–ê–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph226 = {
@@ -2714,77 +2714,77 @@ static FONT_GLYPH korvet_font1_glyph226 = {
 
 static FONT_GLYPH korvet_font1_glyph227 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆∆∆~\x6\x6|\0\0"
+    "\0\0\0\0\0\0–ñ–ñ–ñ–ñ~\x6\x6|\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph228 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0~€€€~\x18\x18\x18\0\0"
+    "\0\0\0\0\0\0~–´–´–´~\x18\x18\x18\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph229 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆l88l∆\0\0\0\0"
+    "\0\0\0\0\0\0–ñl88l–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph230 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0ÃÃÃÃÃ˛\x6\x2\0\0"
+    "\0\0\0\0\0\0–ú–ú–ú–ú–ú—é\x6\x2\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph231 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆∆~\x6\x6\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–ñ–ñ~\x6\x6\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph232 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0÷÷÷÷÷˛\0\0\0\0"
+    "\0\0\0\0\0\0–¶–¶–¶–¶–¶—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph233 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0÷÷÷÷÷˛\x6\x2\0\0"
+    "\0\0\0\0\0\0–¶–¶–¶–¶–¶—é\x6\x2\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph234 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∞<66<\0\0\0\0"
+    "\0\0\0\0\0\0—Ä¬∞<66<\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph235 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0∆∆ˆﬁﬁˆ\0\0\0\0"
+    "\0\0\0\0\0\0–ñ–ñ—Ü–Æ–Æ—Ü\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph236 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0`|ff¸\0\0\0\0"
+    "\0\0\0\0\0\0—Ä`|ff—å\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph237 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0|∆\x1e\x6∆|\0\0\0\0"
+    "\0\0\0\0\0\0|–ñ\x1e\x6–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph238 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0Ã÷ˆ÷÷Ã\0\0\0\0"
+    "\0\0\0\0\0\0–ú–¶—Ü–¶–¶–ú\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph239 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0~ÃÃ|lŒ\0\0\0\0"
+    "\0\0\0\0\0\0~–ú–ú|l–û\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph240 = {
     8, 16, /* width, height */
-    "\0\0(\0˛bhxhbf˛\0\0\0\0"
+    "\0\0(\0—ébhxhbf—é\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph241 = {
     8, 16, /* width, height */
-    "\0\0\0\0(\0|∆˛¿∆|\0\0\0\0"
+    "\0\0\0\0(\0|–ñ—é–ê–ñ|\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph242 = {
@@ -2794,12 +2794,12 @@ static FONT_GLYPH korvet_font1_glyph242 = {
 
 static FONT_GLYPH korvet_font1_glyph243 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0\0\0\0¿`0\x18\f"
+    "\0\0\0\0\0\0\0\0\0\0\0–ê`0\x18\f"
 };
 
 static FONT_GLYPH korvet_font1_glyph244 = {
     8, 16, /* width, height */
-    "\f\x18""0`¿\0\0\0\0\0\0\0\0\0\0\0"
+    "\f\x18""0`–ê\0\0\0\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph245 = {
@@ -2809,12 +2809,12 @@ static FONT_GLYPH korvet_font1_glyph245 = {
 
 static FONT_GLYPH korvet_font1_glyph246 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\x18\f˛\f\x18\0\0\0\0\0\0"
+    "\0\0\0\0\0\x18\f—é\f\x18\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph247 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0""0`˛`0\0\0\0\0\0\0"
+    "\0\0\0\0\0""0`—é`0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph248 = {
@@ -2829,22 +2829,22 @@ static FONT_GLYPH korvet_font1_glyph249 = {
 
 static FONT_GLYPH korvet_font1_glyph250 = {
     8, 16, /* width, height */
-    "\0\0\0\0""00\0¸\0""00\0\0\0\0\0"
+    "\0\0\0\0""00\0—å\0""00\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph251 = {
     8, 16, /* width, height */
-    "\0\0\0\x18\x18ˇ\x18\x18\0ˇ\0\0\0\0\0\0"
+    "\0\0\0\x18\x18—è\x18\x18\0—è\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph252 = {
     8, 16, /* width, height */
-    "\0\0\0ãã»®òàààà\0\0\0\0"
+    "\0\0\0‚Äπ‚Äπ–ò–Å‚Ç¨‚Ç¨‚Ç¨‚Ç¨\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph253 = {
     8, 16, /* width, height */
-    "\0\0\0ÇD|∆∆∆|DÇ\0\0\0\0"
+    "\0\0\0‚ÄöD|–ñ–ñ–ñ|D‚Äö\0\0\0\0"
 };
 
 static FONT_GLYPH korvet_font1_glyph254 = {
@@ -3145,32 +3145,32 @@ static FONT_GLYPH pc_font_glyph0 = {
 
 static FONT_GLYPH pc_font_glyph1 = {
     8, 16, /* width, height */
-    "\0\0~Å•••ÅÅΩôÅ~\0\0\0"
+    "\0\0~–É“ê“ê“ê–É–É–Ö‚Ñ¢–É~\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph2 = {
     8, 16, /* width, height */
-    "\0\0~ˇ€€€ˇˇ√Áˇ~\0\0\0"
+    "\0\0~—è–´–´–´—è—è–ì–∑—è~\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph3 = {
     8, 16, /* width, height */
-    "\0\0l˛˛˛˛˛˛|8\x10\0\0\0\0"
+    "\0\0l—é—é—é—é—é—é|8\x10\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph4 = {
     8, 16, /* width, height */
-    "\0\0\0\0\x10""8|˛|8\x10\0\0\0\0\0"
+    "\0\0\0\0\x10""8|—é|8\x10\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph5 = {
     8, 16, /* width, height */
-    "\0\0\0\x18<<ÁÁÁ\x18\x18<\0\0\0\0"
+    "\0\0\0\x18<<–∑–∑–∑\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph6 = {
     8, 16, /* width, height */
-    "\0\0\0\x18<~ˇˇ~\x18\x18<\0\0\0\0"
+    "\0\0\0\x18<~—è—è~\x18\x18<\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph7 = {
@@ -3180,7 +3180,7 @@ static FONT_GLYPH pc_font_glyph7 = {
 
 static FONT_GLYPH pc_font_glyph8 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇÁ√√Áˇˇˇˇˇˇ"
+    "—è—è—è—è—è—è–∑–ì–ì–∑—è—è—è—è—è—è"
 };
 
 static FONT_GLYPH pc_font_glyph9 = {
@@ -3190,12 +3190,12 @@ static FONT_GLYPH pc_font_glyph9 = {
 
 static FONT_GLYPH pc_font_glyph10 = {
     8, 16, /* width, height */
-    "ˇˇˇˇ√ôΩΩô√ˇˇˇˇˇˇ"
+    "—è—è—è—è–ì‚Ñ¢–Ö–Ö‚Ñ¢–ì—è—è—è—è—è—è"
 };
 
 static FONT_GLYPH pc_font_glyph11 = {
     8, 16, /* width, height */
-    "\0\0\0\x1e\xe\x1a""2xÃÃÃx\0\0\0\0"
+    "\0\0\0\x1e\xe\x1a""2x–ú–ú–úx\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph12 = {
@@ -3205,27 +3205,27 @@ static FONT_GLYPH pc_font_glyph12 = {
 
 static FONT_GLYPH pc_font_glyph13 = {
     8, 16, /* width, height */
-    "\0\0\0?3?000p‡\0\0\0\0"
+    "\0\0\0?3?000p—Ä–∞\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph14 = {
     8, 16, /* width, height */
-    "\0\0\0ccccgÁÊ¿\0\0\0"
+    "\0\0\0ccccg–∑–∂–ê\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph15 = {
     8, 16, /* width, height */
-    "\0\0\0\x18\x18€<Á<€\x18\x18\0\0\0\0"
+    "\0\0\0\x18\x18–´<–∑<–´\x18\x18\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph16 = {
     8, 16, /* width, height */
-    "\0\0\0Ä¿‡¯˛¯‡¿Ä\0\0\0\0"
+    "\0\0\0–Ç–ê–∞—à—é—à–∞–ê–Ç\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph17 = {
     8, 16, /* width, height */
-    "\0\0\0\x2\x6\xe>˛>\xe\x6\x2\0\0\0\0"
+    "\0\0\0\x2\x6\xe>—é>\xe\x6\x2\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph18 = {
@@ -3240,17 +3240,17 @@ static FONT_GLYPH pc_font_glyph19 = {
 
 static FONT_GLYPH pc_font_glyph20 = {
     8, 16, /* width, height */
-    "\0\0\0€€€{\x1b\x1b\x1b\x1b\0\0\0\0"
+    "\0\0\0–´–´–´{\x1b\x1b\x1b\x1b\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph21 = {
     8, 16, /* width, height */
-    "\0\0|∆`8l∆∆l8\f∆|\0\0"
+    "\0\0|–ñ`8l–ñ–ñl8\f–ñ|\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph22 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0\0˛˛˛\0\0\0\0"
+    "\0\0\0\0\0\0\0\0\0—é—é—é\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph23 = {
@@ -3270,32 +3270,32 @@ static FONT_GLYPH pc_font_glyph25 = {
 
 static FONT_GLYPH pc_font_glyph26 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\x18\f˛\f\x18\0\0\0\0\0\0"
+    "\0\0\0\0\0\x18\f—é\f\x18\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph27 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0""0`˛`0\0\0\0\0\0\0"
+    "\0\0\0\0\0""0`—é`0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph28 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0¿¿¿˛\0\0\0\0\0\0"
+    "\0\0\0\0\0\0–ê–ê–ê—é\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph29 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0(l˛l(\0\0\0\0\0\0"
+    "\0\0\0\0\0(l—él(\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph30 = {
     8, 16, /* width, height */
-    "\0\0\0\0\x10""88||˛˛\0\0\0\0\0"
+    "\0\0\0\0\x10""88||—é—é\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph31 = {
     8, 16, /* width, height */
-    "\0\0\0\0˛˛||88\x10\0\0\0\0\0"
+    "\0\0\0\0—é—é||88\x10\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph32 = {
@@ -3315,22 +3315,22 @@ static FONT_GLYPH pc_font_glyph34 = {
 
 static FONT_GLYPH pc_font_glyph35 = {
     8, 16, /* width, height */
-    "\0\0lll˛lll˛lll\0\0\0"
+    "\0\0lll—élll—élll\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph36 = {
     8, 16, /* width, height */
-    "\x18\x18\x18|∆¬¿|\x6Ü∆|\x18\x18\x18\0"
+    "\x18\x18\x18|–ñ–í–ê|\x6‚Ä†–ñ|\x18\x18\x18\0"
 };
 
 static FONT_GLYPH pc_font_glyph37 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0¬∆\f\x18""0f∆\0\0\0\0"
+    "\0\0\0\0\0–í–ñ\f\x18""0f–ñ\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph38 = {
     8, 16, /* width, height */
-    "\0\0""8lll8v‹ÃÃÃv\0\0\0"
+    "\0\0""8lll8v–¨–ú–ú–úv\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph39 = {
@@ -3350,7 +3350,7 @@ static FONT_GLYPH pc_font_glyph41 = {
 
 static FONT_GLYPH pc_font_glyph42 = {
     8, 16, /* width, height */
-    "\0\0\0\0""ff<ˇ<ff\0\0\0\0\0"
+    "\0\0\0\0""ff<—è<ff\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph43 = {
@@ -3365,7 +3365,7 @@ static FONT_GLYPH pc_font_glyph44 = {
 
 static FONT_GLYPH pc_font_glyph45 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0˛\0\0\0\0\0\0\0\0"
+    "\0\0\0\0\0\0\0—é\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph46 = {
@@ -3375,12 +3375,12 @@ static FONT_GLYPH pc_font_glyph46 = {
 
 static FONT_GLYPH pc_font_glyph47 = {
     8, 16, /* width, height */
-    "\0\0\0\x2\x6\f\x18""0`¿Ä\0\0\0\0\0"
+    "\0\0\0\x2\x6\f\x18""0`–ê–Ç\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph48 = {
     8, 16, /* width, height */
-    "\0\0|∆∆ŒﬁˆˆÊ∆∆|\0\0\0"
+    "\0\0|–ñ–ñ–û–Æ—Ü—Ü–∂–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph49 = {
@@ -3390,42 +3390,42 @@ static FONT_GLYPH pc_font_glyph49 = {
 
 static FONT_GLYPH pc_font_glyph50 = {
     8, 16, /* width, height */
-    "\0\0|∆∆\x6\x6\f\x18""0`∆˛\0\0\0"
+    "\0\0|–ñ–ñ\x6\x6\f\x18""0`–ñ—é\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph51 = {
     8, 16, /* width, height */
-    "\0\0|∆\x6\x6\x6<\x6\x6\x6∆|\0\0\0"
+    "\0\0|–ñ\x6\x6\x6<\x6\x6\x6–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph52 = {
     8, 16, /* width, height */
-    "\0\0\f\x1c<lÃÃ˛\f\f\f\x1e\0\0\0"
+    "\0\0\f\x1c<l–ú–ú—é\f\f\f\x1e\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph53 = {
     8, 16, /* width, height */
-    "\0\0˛¿¿¿¸\x6\x6\x6\x6∆|\0\0\0"
+    "\0\0—é–ê–ê–ê—å\x6\x6\x6\x6–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph54 = {
     8, 16, /* width, height */
-    "\0\0""8`¿¿¸∆∆∆∆∆|\0\0\0"
+    "\0\0""8`–ê–ê—å–ñ–ñ–ñ–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph55 = {
     8, 16, /* width, height */
-    "\0\0˛∆∆\x6\x6\f\x18""0000\0\0\0"
+    "\0\0—é–ñ–ñ\x6\x6\f\x18""0000\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph56 = {
     8, 16, /* width, height */
-    "\0\0|∆∆∆∆|∆∆∆∆|\0\0\0"
+    "\0\0|–ñ–ñ–ñ–ñ|–ñ–ñ–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph57 = {
     8, 16, /* width, height */
-    "\0\0|∆∆∆∆∆~\x6\x6\fx\0\0\0"
+    "\0\0|–ñ–ñ–ñ–ñ–ñ~\x6\x6\fx\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph58 = {
@@ -3455,52 +3455,52 @@ static FONT_GLYPH pc_font_glyph62 = {
 
 static FONT_GLYPH pc_font_glyph63 = {
     8, 16, /* width, height */
-    "\0\0|∆∆∆\f\x18\x18\x18\0\x18\x18\0\0\0"
+    "\0\0|–ñ–ñ–ñ\f\x18\x18\x18\0\x18\x18\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph64 = {
     8, 16, /* width, height */
-    "\0\0|∆∆∆ﬁﬁﬁ‹¿¿|\0\0\0"
+    "\0\0|–ñ–ñ–ñ–Æ–Æ–Æ–¨–ê–ê|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph65 = {
     8, 16, /* width, height */
-    "\0\0\x10""8l∆∆∆˛∆∆∆∆\0\0\0"
+    "\0\0\x10""8l–ñ–ñ–ñ—é–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph66 = {
     8, 16, /* width, height */
-    "\0\0¸ffff|ffff¸\0\0\0"
+    "\0\0—åffff|ffff—å\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph67 = {
     8, 16, /* width, height */
-    "\0\0|∆∆¿¿¿¿∆∆∆|\0\0\0"
+    "\0\0|–ñ–ñ–ê–ê–ê–ê–ñ–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph68 = {
     8, 16, /* width, height */
-    "\0\0¸fffffffff¸\0\0\0"
+    "\0\0—åfffffffff—å\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph69 = {
     8, 16, /* width, height */
-    "\0\0˛fb`hxhhbf˛\0\0\0"
+    "\0\0—éfb`hxhhbf—é\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph70 = {
     8, 16, /* width, height */
-    "\0\0˛fb`hxhh``\0\0\0"
+    "\0\0—éfb`hxhh``—Ä\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph71 = {
     8, 16, /* width, height */
-    "\0\0|∆∆¿¿¿ﬁ∆∆∆|\0\0\0"
+    "\0\0|–ñ–ñ–ê–ê–ê–Æ–ñ–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph72 = {
     8, 16, /* width, height */
-    "\0\0∆∆∆∆∆˛∆∆∆∆∆\0\0\0"
+    "\0\0–ñ–ñ–ñ–ñ–ñ—é–ñ–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph73 = {
@@ -3510,52 +3510,52 @@ static FONT_GLYPH pc_font_glyph73 = {
 
 static FONT_GLYPH pc_font_glyph74 = {
     8, 16, /* width, height */
-    "\0\0\x1e\f\f\f\f\f\f\fÃÃx\0\0\0"
+    "\0\0\x1e\f\f\f\f\f\f\f–ú–úx\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph75 = {
     8, 16, /* width, height */
-    "\0\0ÊffllxllffÊ\0\0\0"
+    "\0\0–∂ffllxllff–∂\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph76 = {
     8, 16, /* width, height */
-    "\0\0```````bf˛\0\0\0"
+    "\0\0—Ä```````bf—é\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph77 = {
     8, 16, /* width, height */
-    "\0\0∆∆Ó˛˛÷∆∆∆∆∆\0\0\0"
+    "\0\0–ñ–ñ–æ—é—é–¶–ñ–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph78 = {
     8, 16, /* width, height */
-    "\0\0∆∆Êˆ˛ﬁŒ∆∆∆∆\0\0\0"
+    "\0\0–ñ–ñ–∂—Ü—é–Æ–û–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph79 = {
     8, 16, /* width, height */
-    "\0\0|∆∆∆∆∆∆∆∆∆|\0\0\0"
+    "\0\0|–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph80 = {
     8, 16, /* width, height */
-    "\0\0¸fffff|```\0\0\0"
+    "\0\0—åfffff|```—Ä\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph81 = {
     8, 16, /* width, height */
-    "\0\0|∆∆∆∆∆∆÷ﬁ|\f\0\0\0"
+    "\0\0|–ñ–ñ–ñ–ñ–ñ–ñ–¶–Æ|\f\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph82 = {
     8, 16, /* width, height */
-    "\0\0¸ffff|lfffÊ\0\0\0"
+    "\0\0—åffff|lfff–∂\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph83 = {
     8, 16, /* width, height */
-    "\0\0|∆∆∆`8\f∆∆∆|\0\0\0"
+    "\0\0|–ñ–ñ–ñ`8\f–ñ–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph84 = {
@@ -3565,22 +3565,22 @@ static FONT_GLYPH pc_font_glyph84 = {
 
 static FONT_GLYPH pc_font_glyph85 = {
     8, 16, /* width, height */
-    "\0\0∆∆∆∆∆∆∆∆∆∆|\0\0\0"
+    "\0\0–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph86 = {
     8, 16, /* width, height */
-    "\0\0∆∆∆∆∆∆∆∆l8\x10\0\0\0"
+    "\0\0–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñl8\x10\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph87 = {
     8, 16, /* width, height */
-    "\0\0∆∆∆∆∆÷÷˛|ll\0\0\0"
+    "\0\0–ñ–ñ–ñ–ñ–ñ–¶–¶—é|ll\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph88 = {
     8, 16, /* width, height */
-    "\0\0∆∆∆l888l∆∆∆\0\0\0"
+    "\0\0–ñ–ñ–ñl888l–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph89 = {
@@ -3590,7 +3590,7 @@ static FONT_GLYPH pc_font_glyph89 = {
 
 static FONT_GLYPH pc_font_glyph90 = {
     8, 16, /* width, height */
-    "\0\0˛∆∆å\x18""0`¬∆∆˛\0\0\0"
+    "\0\0—é–ñ–ñ–ä\x18""0`–í–ñ–ñ—é\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph91 = {
@@ -3600,7 +3600,7 @@ static FONT_GLYPH pc_font_glyph91 = {
 
 static FONT_GLYPH pc_font_glyph92 = {
     8, 16, /* width, height */
-    "\0\0\0Ä¿‡p8\x1c\xe\x6\x2\0\0\0\0"
+    "\0\0\0–Ç–ê–∞p8\x1c\xe\x6\x2\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph93 = {
@@ -3610,12 +3610,12 @@ static FONT_GLYPH pc_font_glyph93 = {
 
 static FONT_GLYPH pc_font_glyph94 = {
     8, 16, /* width, height */
-    "\x10\x10""8l∆\0\0\0\0\0\0\0\0\0\0\0"
+    "\x10\x10""8l–ñ\0\0\0\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph95 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0\0\0\0\0ˇˇ\0\0"
+    "\0\0\0\0\0\0\0\0\0\0\0\0—è—è\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph96 = {
@@ -3625,42 +3625,42 @@ static FONT_GLYPH pc_font_glyph96 = {
 
 static FONT_GLYPH pc_font_glyph97 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0xÃ\f|ÃÃÃv\0\0\0"
+    "\0\0\0\0\0x–ú\f|–ú–ú–úv\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph98 = {
     8, 16, /* width, height */
-    "\0\0‡```xlffff|\0\0\0"
+    "\0\0–∞```xlffff|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph99 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0|∆∆¿¿∆∆|\0\0\0"
+    "\0\0\0\0\0|–ñ–ñ–ê–ê–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph100 = {
     8, 16, /* width, height */
-    "\0\0\x1c\f\f\f<lÃÃÃÃv\0\0\0"
+    "\0\0\x1c\f\f\f<l–ú–ú–ú–úv\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph101 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0|∆∆˛¿∆∆|\0\0\0"
+    "\0\0\0\0\0|–ñ–ñ—é–ê–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph102 = {
     8, 16, /* width, height */
-    "\0\0""8ld``````\0\0\0"
+    "\0\0""8ld`—Ä`````—Ä\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph103 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0vÃÃÃÃÃ|\fÃx\0"
+    "\0\0\0\0\0v–ú–ú–ú–ú–ú|\f–úx\0"
 };
 
 static FONT_GLYPH pc_font_glyph104 = {
     8, 16, /* width, height */
-    "\0\0‡``lvfffffÊ\0\0\0"
+    "\0\0–∞``lvfffff–∂\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph105 = {
@@ -3675,7 +3675,7 @@ static FONT_GLYPH pc_font_glyph106 = {
 
 static FONT_GLYPH pc_font_glyph107 = {
     8, 16, /* width, height */
-    "\0\0‡``fflxlffÊ\0\0\0"
+    "\0\0–∞``fflxlff–∂\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph108 = {
@@ -3685,47 +3685,47 @@ static FONT_GLYPH pc_font_glyph108 = {
 
 static FONT_GLYPH pc_font_glyph109 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0Ï˛÷÷÷∆∆∆\0\0\0"
+    "\0\0\0\0\0–º—é–¶–¶–¶–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph110 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0‹fffffff\0\0\0"
+    "\0\0\0\0\0–¨fffffff\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph111 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0|∆∆∆∆∆∆|\0\0\0"
+    "\0\0\0\0\0|–ñ–ñ–ñ–ñ–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph112 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0‹ffffff|`\0"
+    "\0\0\0\0\0–¨ffffff|`—Ä\0"
 };
 
 static FONT_GLYPH pc_font_glyph113 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0vÃÃÃÃÃÃ|\f\x1e\0"
+    "\0\0\0\0\0v–ú–ú–ú–ú–ú–ú|\f\x1e\0"
 };
 
 static FONT_GLYPH pc_font_glyph114 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0‹vf````\0\0\0"
+    "\0\0\0\0\0–¨vf````—Ä\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph115 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0|∆∆p\x1c∆∆|\0\0\0"
+    "\0\0\0\0\0|–ñ–ñp\x1c–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph116 = {
     8, 16, /* width, height */
-    "\0\0\x10""00¸000006\x1c\0\0\0"
+    "\0\0\x10""00—å000006\x1c\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph117 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0ÃÃÃÃÃÃÃv\0\0\0"
+    "\0\0\0\0\0–ú–ú–ú–ú–ú–ú–úv\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph118 = {
@@ -3735,22 +3735,22 @@ static FONT_GLYPH pc_font_glyph118 = {
 
 static FONT_GLYPH pc_font_glyph119 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0∆∆∆÷÷˛ll\0\0\0"
+    "\0\0\0\0\0–ñ–ñ–ñ–¶–¶—éll\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph120 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0∆∆l88l∆∆\0\0\0"
+    "\0\0\0\0\0–ñ–ñl88l–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph121 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0∆∆∆∆∆∆~\x6\f¯\0"
+    "\0\0\0\0\0–ñ–ñ–ñ–ñ–ñ–ñ~\x6\f—à\0"
 };
 
 static FONT_GLYPH pc_font_glyph122 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0˛∆Ã\x18""0f∆˛\0\0\0"
+    "\0\0\0\0\0—é–ñ–ú\x18""0f–ñ—é\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph123 = {
@@ -3770,102 +3770,102 @@ static FONT_GLYPH pc_font_glyph125 = {
 
 static FONT_GLYPH pc_font_glyph126 = {
     8, 16, /* width, height */
-    "\0\0v‹\0\0\0\0\0\0\0\0\0\0\0\0"
+    "\0\0v–¨\0\0\0\0\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph127 = {
     8, 16, /* width, height */
-    "\0\0\0\0\x10""8l∆∆∆∆˛\0\0\0\0"
+    "\0\0\0\0\x10""8l–ñ–ñ–ñ–ñ—é\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph128 = {
     8, 16, /* width, height */
-    "\0\0\x10""8l∆∆∆˛∆∆∆∆\0\0\0"
+    "\0\0\x10""8l–ñ–ñ–ñ—é–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph129 = {
     8, 16, /* width, height */
-    "\0\0˛fb`|fffff¸\0\0\0"
+    "\0\0—éfb`|fffff—å\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph130 = {
     8, 16, /* width, height */
-    "\0\0¸fff|fffff¸\0\0\0"
+    "\0\0—åfff|fffff—å\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph131 = {
     8, 16, /* width, height */
-    "\0\0˛fb```````\0\0\0"
+    "\0\0—éfb```````—Ä\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph132 = {
     8, 16, /* width, height */
-    "\0\0>fffffffffˇ√√\0"
+    "\0\0>fffffffff—è–ì–ì\0"
 };
 
 static FONT_GLYPH pc_font_glyph133 = {
     8, 16, /* width, height */
-    "\0\0˛ffbhxhbff˛\0\0\0"
+    "\0\0—éffbhxhbff—é\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph134 = {
     8, 16, /* width, height */
-    "\0\0÷÷÷|8|÷÷÷÷÷\0\0\0"
+    "\0\0–¶–¶–¶|8|–¶–¶–¶–¶–¶\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph135 = {
     8, 16, /* width, height */
-    "\0\0|∆\x6\x6\x6<\x6\x6\x6∆|\0\0\0"
+    "\0\0|–ñ\x6\x6\x6<\x6\x6\x6–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph136 = {
     8, 16, /* width, height */
-    "\0\0∆∆Œﬁ˛ˆÊ∆∆∆∆\0\0\0"
+    "\0\0–ñ–ñ–û–Æ—é—Ü–∂–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph137 = {
     8, 16, /* width, height */
-    "88∆∆Œﬁ˛ˆÊ∆∆∆∆\0\0\0"
+    "88–ñ–ñ–û–Æ—é—Ü–∂–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph138 = {
     8, 16, /* width, height */
-    "\0\0ÊfllxllfffÊ\0\0\0"
+    "\0\0–∂fllxllfff–∂\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph139 = {
     8, 16, /* width, height */
-    "\0\0>fffffffffÊ\0\0\0"
+    "\0\0>fffffffff–∂\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph140 = {
     8, 16, /* width, height */
-    "\0\0∆Ó˛˛÷∆∆∆∆∆∆\0\0\0"
+    "\0\0–ñ–æ—é—é–¶–ñ–ñ–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph141 = {
     8, 16, /* width, height */
-    "\0\0∆∆∆∆˛∆∆∆∆∆∆\0\0\0"
+    "\0\0–ñ–ñ–ñ–ñ—é–ñ–ñ–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph142 = {
     8, 16, /* width, height */
-    "\0\0|∆∆∆∆∆∆∆∆∆|\0\0\0"
+    "\0\0|–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph143 = {
     8, 16, /* width, height */
-    "\0\0˛∆∆∆∆∆∆∆∆∆∆\0\0\0"
+    "\0\0—é–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph144 = {
     8, 16, /* width, height */
-    "\0\0¸fffff|```\0\0\0"
+    "\0\0—åfffff|```—Ä\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph145 = {
     8, 16, /* width, height */
-    "\0\0|∆∆¿¿¿¿∆∆∆|\0\0\0"
+    "\0\0|–ñ–ñ–ê–ê–ê–ê–ñ–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph146 = {
@@ -3875,72 +3875,72 @@ static FONT_GLYPH pc_font_glyph146 = {
 
 static FONT_GLYPH pc_font_glyph147 = {
     8, 16, /* width, height */
-    "\0\0∆∆∆∆∆~\x6\x6\x6∆|\0\0\0"
+    "\0\0–ñ–ñ–ñ–ñ–ñ~\x6\x6\x6–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph148 = {
     8, 16, /* width, height */
-    "\0\0\x18~€€€€€€€~\x18\0\0\0"
+    "\0\0\x18~–´–´–´–´–´–´–´~\x18\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph149 = {
     8, 16, /* width, height */
-    "\0\0∆∆∆l888l∆∆∆\0\0\0"
+    "\0\0–ñ–ñ–ñl888l–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph150 = {
     8, 16, /* width, height */
-    "\0\0ÃÃÃÃÃÃÃÃÃÃ˛\x6\x6\0"
+    "\0\0–ú–ú–ú–ú–ú–ú–ú–ú–ú–ú—é\x6\x6\0"
 };
 
 static FONT_GLYPH pc_font_glyph151 = {
     8, 16, /* width, height */
-    "\0\0∆∆∆∆∆∆~\x6\x6\x6\x6\0\0\0"
+    "\0\0–ñ–ñ–ñ–ñ–ñ–ñ~\x6\x6\x6\x6\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph152 = {
     8, 16, /* width, height */
-    "\0\0÷÷÷÷÷÷÷÷÷÷˛\0\0\0"
+    "\0\0–¶–¶–¶–¶–¶–¶–¶–¶–¶–¶—é\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph153 = {
     8, 16, /* width, height */
-    "\0\0÷÷÷÷÷÷÷÷÷÷˛\x3\x3\0"
+    "\0\0–¶–¶–¶–¶–¶–¶–¶–¶–¶–¶—é\x3\x3\0"
 };
 
 static FONT_GLYPH pc_font_glyph154 = {
     8, 16, /* width, height */
-    "\0\0¯∞0<66666|\0\0\0"
+    "\0\0—à—Ä¬∞0<66666|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph155 = {
     8, 16, /* width, height */
-    "\0\0∆∆∆∆ˆﬁﬁﬁﬁﬁˆ\0\0\0"
+    "\0\0–ñ–ñ–ñ–ñ—Ü–Æ–Æ–Æ–Æ–Æ—Ü\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph156 = {
     8, 16, /* width, height */
-    "\0\0```|fffff¸\0\0\0"
+    "\0\0—Ä```|fffff—å\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph157 = {
     8, 16, /* width, height */
-    "\0\0xÃÜÜ&>&ÜÜÃx\0\0\0"
+    "\0\0x–ú‚Ä†‚Ä†&>&‚Ä†‚Ä†–úx\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph158 = {
     8, 16, /* width, height */
-    "\0\0ú∂∂∂∂ˆ∂∂∂∂ú\0\0\0"
+    "\0\0—ö¬∂¬∂¬∂¬∂—Ü¬∂¬∂¬∂¬∂—ö\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph159 = {
     8, 16, /* width, height */
-    "\0\0~ÃÃÃÃ|lÃÃŒŒ\0\0\0"
+    "\0\0~–ú–ú–ú–ú|l–ú–ú–û–û\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph160 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0xÃ\f|ÃÃÃv\0\0\0"
+    "\0\0\0\0\0x–ú\f|–ú–ú–úv\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph161 = {
@@ -3950,27 +3950,27 @@ static FONT_GLYPH pc_font_glyph161 = {
 
 static FONT_GLYPH pc_font_glyph162 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0¸ff|fff¸\0\0\0"
+    "\0\0\0\0\0—åff|fff—å\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph163 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0˛b`````\0\0\0"
+    "\0\0\0\0\0—éb`````—Ä\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph164 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0>ffffffˇ√√\0"
+    "\0\0\0\0\0>ffffff—è–ì–ì\0"
 };
 
 static FONT_GLYPH pc_font_glyph165 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0|∆∆˛¿¿∆|\0\0\0"
+    "\0\0\0\0\0|–ñ–ñ—é–ê–ê–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph166 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0÷÷÷||÷÷÷\0\0\0"
+    "\0\0\0\0\0–¶–¶–¶||–¶–¶–¶\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph167 = {
@@ -3980,42 +3980,42 @@ static FONT_GLYPH pc_font_glyph167 = {
 
 static FONT_GLYPH pc_font_glyph168 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0∆Œﬁ˛ˆÊ∆∆\0\0\0"
+    "\0\0\0\0\0–ñ–û–Æ—é—Ü–∂–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph169 = {
     8, 16, /* width, height */
-    "\0\0""88\0∆Œﬁ˛ˆÊ∆∆\0\0\0"
+    "\0\0""88\0–ñ–û–Æ—é—Ü–∂–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph170 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0ÊflxlffÊ\0\0\0"
+    "\0\0\0\0\0–∂flxlff–∂\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph171 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0>ffffffÊ\0\0\0"
+    "\0\0\0\0\0>ffffff–∂\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph172 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0∆Ó˛˛÷∆∆∆\0\0\0"
+    "\0\0\0\0\0–ñ–æ—é—é–¶–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph173 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0∆∆∆˛∆∆∆∆\0\0\0"
+    "\0\0\0\0\0–ñ–ñ–ñ—é–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph174 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0|∆∆∆∆∆∆|\0\0\0"
+    "\0\0\0\0\0|–ñ–ñ–ñ–ñ–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph175 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0˛∆∆∆∆∆∆∆\0\0\0"
+    "\0\0\0\0\0—é–ñ–ñ–ñ–ñ–ñ–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph176 = {
@@ -4025,12 +4025,12 @@ static FONT_GLYPH pc_font_glyph176 = {
 
 static FONT_GLYPH pc_font_glyph177 = {
     8, 16, /* width, height */
-    "™U™U™U™U™U™U™U™U"
+    "–ÑU–ÑU–ÑU–ÑU–ÑU–ÑU–ÑU–ÑU"
 };
 
 static FONT_GLYPH pc_font_glyph178 = {
     8, 16, /* width, height */
-    "w›w›w›w›w›w›w›w›"
+    "w–≠w–≠w–≠w–≠w–≠w–≠w–≠w–≠"
 };
 
 static FONT_GLYPH pc_font_glyph179 = {
@@ -4040,32 +4040,32 @@ static FONT_GLYPH pc_font_glyph179 = {
 
 static FONT_GLYPH pc_font_glyph180 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18\x18\x18¯\x18\x18\x18\x18\x18\x18\x18"
+    "\x18\x18\x18\x18\x18\x18\x18\x18—à\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH pc_font_glyph181 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18¯\x18¯\x18\x18\x18\x18\x18\x18\x18"
+    "\x18\x18\x18\x18\x18\x18—à\x18—à\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH pc_font_glyph182 = {
     8, 16, /* width, height */
-    "66666666ˆ6666666"
+    "66666666—Ü6666666"
 };
 
 static FONT_GLYPH pc_font_glyph183 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0˛6666666"
+    "\0\0\0\0\0\0\0\0—é6666666"
 };
 
 static FONT_GLYPH pc_font_glyph184 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0¯\x18¯\x18\x18\x18\x18\x18\x18\x18"
+    "\0\0\0\0\0\0—à\x18—à\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH pc_font_glyph185 = {
     8, 16, /* width, height */
-    "666666ˆ\x6ˆ6666666"
+    "666666—Ü\x6—Ü6666666"
 };
 
 static FONT_GLYPH pc_font_glyph186 = {
@@ -4075,27 +4075,27 @@ static FONT_GLYPH pc_font_glyph186 = {
 
 static FONT_GLYPH pc_font_glyph187 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0˛\x6ˆ6666666"
+    "\0\0\0\0\0\0—é\x6—Ü6666666"
 };
 
 static FONT_GLYPH pc_font_glyph188 = {
     8, 16, /* width, height */
-    "666666ˆ\x6˛\0\0\0\0\0\0\0"
+    "666666—Ü\x6—é\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph189 = {
     8, 16, /* width, height */
-    "66666666˛\0\0\0\0\0\0\0"
+    "66666666—é\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph190 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18¯\x18¯\0\0\0\0\0\0\0"
+    "\x18\x18\x18\x18\x18\x18—à\x18—à\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph191 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0¯\x18\x18\x18\x18\x18\x18\x18"
+    "\0\0\0\0\0\0\0\0—à\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH pc_font_glyph192 = {
@@ -4105,12 +4105,12 @@ static FONT_GLYPH pc_font_glyph192 = {
 
 static FONT_GLYPH pc_font_glyph193 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18\x18\x18ˇ\0\0\0\0\0\0\0"
+    "\x18\x18\x18\x18\x18\x18\x18\x18—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph194 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0ˇ\x18\x18\x18\x18\x18\x18\x18"
+    "\0\0\0\0\0\0\0\0—è\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH pc_font_glyph195 = {
@@ -4120,12 +4120,12 @@ static FONT_GLYPH pc_font_glyph195 = {
 
 static FONT_GLYPH pc_font_glyph196 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0ˇ\0\0\0\0\0\0\0"
+    "\0\0\0\0\0\0\0\0—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph197 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18\x18\x18ˇ\x18\x18\x18\x18\x18\x18\x18"
+    "\x18\x18\x18\x18\x18\x18\x18\x18—è\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH pc_font_glyph198 = {
@@ -4150,12 +4150,12 @@ static FONT_GLYPH pc_font_glyph201 = {
 
 static FONT_GLYPH pc_font_glyph202 = {
     8, 16, /* width, height */
-    "666666˜\0ˇ\0\0\0\0\0\0\0"
+    "666666—á\0—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph203 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0ˇ\0˜6666666"
+    "\0\0\0\0\0\0—è\0—á6666666"
 };
 
 static FONT_GLYPH pc_font_glyph204 = {
@@ -4165,32 +4165,32 @@ static FONT_GLYPH pc_font_glyph204 = {
 
 static FONT_GLYPH pc_font_glyph205 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0ˇ\0ˇ\0\0\0\0\0\0\0"
+    "\0\0\0\0\0\0—è\0—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph206 = {
     8, 16, /* width, height */
-    "666666˜\0˜6666666"
+    "666666—á\0—á6666666"
 };
 
 static FONT_GLYPH pc_font_glyph207 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18ˇ\0ˇ\0\0\0\0\0\0\0"
+    "\x18\x18\x18\x18\x18\x18—è\0—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph208 = {
     8, 16, /* width, height */
-    "66666666ˇ\0\0\0\0\0\0\0"
+    "66666666—è\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph209 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0ˇ\0ˇ\x18\x18\x18\x18\x18\x18\x18"
+    "\0\0\0\0\0\0—è\0—è\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH pc_font_glyph210 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0ˇ6666666"
+    "\0\0\0\0\0\0\0\0—è6666666"
 };
 
 static FONT_GLYPH pc_font_glyph211 = {
@@ -4215,17 +4215,17 @@ static FONT_GLYPH pc_font_glyph214 = {
 
 static FONT_GLYPH pc_font_glyph215 = {
     8, 16, /* width, height */
-    "66666666ˇ6666666"
+    "66666666—è6666666"
 };
 
 static FONT_GLYPH pc_font_glyph216 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18ˇ\x18ˇ\x18\x18\x18\x18\x18\x18\x18"
+    "\x18\x18\x18\x18\x18\x18—è\x18—è\x18\x18\x18\x18\x18\x18\x18"
 };
 
 static FONT_GLYPH pc_font_glyph217 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18\x18\x18¯\0\0\0\0\0\0\0"
+    "\x18\x18\x18\x18\x18\x18\x18\x18—à\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph218 = {
@@ -4235,17 +4235,17 @@ static FONT_GLYPH pc_font_glyph218 = {
 
 static FONT_GLYPH pc_font_glyph219 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇˇ"
+    "—è—è—è—è—è—è—è—è—è—è—è—è—è—è—è—è"
 };
 
 static FONT_GLYPH pc_font_glyph220 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\0\0\0ˇˇˇˇˇˇˇˇ"
+    "\0\0\0\0\0\0\0\0—è—è—è—è—è—è—è—è"
 };
 
 static FONT_GLYPH pc_font_glyph221 = {
     8, 16, /* width, height */
-    ""
+    "—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä—Ä"
 };
 
 static FONT_GLYPH pc_font_glyph222 = {
@@ -4255,17 +4255,17 @@ static FONT_GLYPH pc_font_glyph222 = {
 
 static FONT_GLYPH pc_font_glyph223 = {
     8, 16, /* width, height */
-    "ˇˇˇˇˇˇˇˇ\0\0\0\0\0\0\0\0"
+    "—è—è—è—è—è—è—è—è\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph224 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0‹fffff|``\0"
+    "\0\0\0\0\0–¨fffff|``—Ä\0"
 };
 
 static FONT_GLYPH pc_font_glyph225 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0|∆∆¿¿∆∆|\0\0\0"
+    "\0\0\0\0\0|–ñ–ñ–ê–ê–ñ–ñ|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph226 = {
@@ -4275,52 +4275,52 @@ static FONT_GLYPH pc_font_glyph226 = {
 
 static FONT_GLYPH pc_font_glyph227 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0∆∆∆∆∆∆~\x6\f¯\0"
+    "\0\0\0\0\0–ñ–ñ–ñ–ñ–ñ–ñ~\x6\f—à\0"
 };
 
 static FONT_GLYPH pc_font_glyph228 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0\x18~€€€€€~\x18\x18\0"
+    "\0\0\0\0\0\x18~–´–´–´–´–´~\x18\x18\0"
 };
 
 static FONT_GLYPH pc_font_glyph229 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0∆∆l88l∆∆\0\0\0"
+    "\0\0\0\0\0–ñ–ñl88l–ñ–ñ\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph230 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0ÃÃÃÃÃÃÃ˛\x6\x6\0"
+    "\0\0\0\0\0–ú–ú–ú–ú–ú–ú–ú—é\x6\x6\0"
 };
 
 static FONT_GLYPH pc_font_glyph231 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0∆∆∆∆~\x6\x6\x6\0\0\0"
+    "\0\0\0\0\0–ñ–ñ–ñ–ñ~\x6\x6\x6\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph232 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0÷÷÷÷÷÷÷˛\0\0\0"
+    "\0\0\0\0\0–¶–¶–¶–¶–¶–¶–¶—é\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph233 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0÷÷÷÷÷÷÷˛\x3\x3\0"
+    "\0\0\0\0\0–¶–¶–¶–¶–¶–¶–¶—é\x3\x3\0"
 };
 
 static FONT_GLYPH pc_font_glyph234 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0¯∞<6666|\0\0\0"
+    "\0\0\0\0\0—à¬∞<6666|\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph235 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0∆∆ˆﬁﬁﬁﬁˆ\0\0\0"
+    "\0\0\0\0\0–ñ–ñ—Ü–Æ–Æ–Æ–Æ—Ü\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph236 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0``|fff¸\0\0\0"
+    "\0\0\0\0\0—Ä``|fff—å\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph237 = {
@@ -4330,22 +4330,22 @@ static FONT_GLYPH pc_font_glyph237 = {
 
 static FONT_GLYPH pc_font_glyph238 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0ú∂∂ˆ∂∂∂ú\0\0\0"
+    "\0\0\0\0\0—ö¬∂¬∂—Ü¬∂¬∂¬∂—ö\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph239 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0~ÃÃÃ|lÃŒ\0\0\0"
+    "\0\0\0\0\0~–ú–ú–ú|l–ú–û\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph240 = {
     8, 16, /* width, height */
-    "\0\0\0\0˛\0\0˛\0\0˛\0\0\0\0\0"
+    "\0\0\0\0—é\0\0—é\0\0—é\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph241 = {
     8, 16, /* width, height */
-    "\0\0\0\0\x18\x18~\x18\x18\0\0ˇ\0\0\0\0"
+    "\0\0\0\0\x18\x18~\x18\x18\0\0—è\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph242 = {
@@ -4365,7 +4365,7 @@ static FONT_GLYPH pc_font_glyph244 = {
 
 static FONT_GLYPH pc_font_glyph245 = {
     8, 16, /* width, height */
-    "\x18\x18\x18\x18\x18\x18\x18\x18\x18ÿÿp\0\0\0\0"
+    "\x18\x18\x18\x18\x18\x18\x18\x18\x18–®–®p\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph246 = {
@@ -4375,7 +4375,7 @@ static FONT_GLYPH pc_font_glyph246 = {
 
 static FONT_GLYPH pc_font_glyph247 = {
     8, 16, /* width, height */
-    "\0\0\0\0\0v‹\0v‹\0\0\0\0\0\0"
+    "\0\0\0\0\0v–¨\0v–¨\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph248 = {
@@ -4395,17 +4395,17 @@ static FONT_GLYPH pc_font_glyph250 = {
 
 static FONT_GLYPH pc_font_glyph251 = {
     8, 16, /* width, height */
-    "\0\xf\f\f\f\f\fÏl<\x1c\f\0\0\0\0"
+    "\0\xf\f\f\f\f\f–ºl<\x1c\f\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph252 = {
     8, 16, /* width, height */
-    "\0\0ÿlllll\0\0\0\0\0\0\0\0"
+    "\0\0–®lllll\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph253 = {
     8, 16, /* width, height */
-    "\0\0pÿ0`»¯\0\0\0\0\0\0\0\0"
+    "\0\0p–®0`–ò—à\0\0\0\0\0\0\0\0"
 };
 
 static FONT_GLYPH pc_font_glyph254 = {
