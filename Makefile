@@ -1,10 +1,7 @@
-CC       = gcc.exe 
-LIBS     = -mwindows -lalleg -liberty
-BIN      = a.exe
-CFLAGS   = -O7 -MMD -fomit-frame-pointer -mcpu=pentium3 -funroll-loops -ISRC
-#CFLAGS   = -O7 -MMD -fomit-frame-pointer 
-#CFLAGS   = -O7 -MMD -mcpu=pentium
-#CFLAGS   = -MMD -g -Wall
+
+LIBS     = -liberty $(shell allegro-config --libs)
+CFLAGS   = -g -Wall -fomit-frame-pointer -Isrc $(shell allegro-config --cflags)
+
 sources = _main.c \
           vg.c \
           floppy.c \
@@ -30,8 +27,8 @@ VPATH	= src
 all:    kdbg.exe
 
 clean: 
-	rm -f objs/dbg/*
-	rm -f objs/*
+	rm -rf objs/dbg/*
+	rm -rf objs/*
 	rm -f kdbg.exe
 
 objs/%.o:	%.c
