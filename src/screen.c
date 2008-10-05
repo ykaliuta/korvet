@@ -24,7 +24,9 @@
 // (c) 2003      Korvet Team.
 
 #include <stdio.h>
+#ifdef __WIN32
 #include <conio.h>
+#endif
 #include <allegro.h>
 
 #include "PlaneMask.h"      // Arrays for Plane MASK optimization
