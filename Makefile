@@ -21,28 +21,28 @@ sources = _main.c \
 
 objs1	= $(patsubst %.c,%.o,$(sources))
 objs2	= $(patsubst %.s,%.o,$(objs1))
-objs	= $(addprefix OBJS/,$(objs2))
+objs	= $(addprefix objs/,$(objs2))
 
-VPATH	= SRC 
+VPATH	= src 
 
 .PHONY: all clean depend
 
 all:    kdbg.exe
 
 clean: 
-	rm -f OBJS/dbg/*
-	rm -f OBJS/*
-	rm kdbg.exe
+	rm -f objs/dbg/*
+	rm -f objs/*
+	rm -f kdbg.exe
 
-OBJS/%.o:	%.c
+objs/%.o:	%.c
 	gcc $(CFLAGS) -c -o $@ $<
 
-OBJS/%.o:	%.s
+objs/%.o:	%.s
 	gcc $(CFLAGS) -c -o $@ $<
 
 
 kdbg.exe:	$(objs)
 	@gcc $^ -o $@ $(LIBS)
 
-include $(wildcard OBJS/*.d)
-include $(wildcard OBJS/DBG/*.d)
+include $(wildcard objs/*.d)
+include $(wildcard objs/dbg/*.d)
