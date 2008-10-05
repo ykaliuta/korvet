@@ -27,8 +27,8 @@ VPATH	= src
 all:    kdbg.exe
 
 clean: 
-	rm -rf objs/dbg/*
-	rm -rf objs/*
+	rm -f objs/dbg/*
+	rm -f objs/*
 	rm -f kdbg.exe
 
 objs/%.o:	%.c
