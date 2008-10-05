@@ -11,6 +11,7 @@ sources = _main.c \
           serial.c timer.c      \
           wav.c gui.c osd.c \
 	  mouse.c joystick.c \
+	  lib.c \
           dbg/dbg.c dbg/_dasm.c dbg/dasm80.c dbg/_dump.c dbg/_regs.c dbg/_history.c dbg/dbg_tools.c dbg/scremul.c dbg/kfonts.c \
           dbg/label.c dbg/asm80.c dbg/readwrite.c dbg/sym.c dbg/lbl_korvet.c dbg/comname.c \
           dbg/gt_main.c
@@ -39,7 +40,7 @@ objs/%.o:	%.s
 
 
 kdbg.exe:	$(objs)
-	@gcc $^ -o $@ $(LIBS)
+	gcc $^ -o $@ $(LIBS)
 
 include $(wildcard objs/*.d)
 include $(wildcard objs/dbg/*.d)
