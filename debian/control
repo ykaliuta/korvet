@@ -1,0 +1,24 @@
+Source: korvetemu
+Section: otherosfs
+Priority: extra
+Maintainer: Yauheni Kaliuta <y.kaliuta@gmail.com>
+Build-Depends: debhelper (>= 5), liballegro4.2-dev
+Standards-Version: 3.8.0
+Homepage: http://pk8020.narod.ru
+
+Package: korvetemu
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, korvetemu-data
+Description: PK8020 Korvet emulator
+ This is a emulator of pk8020 "Korvet" computer
+ .
+ Korvet was a popular computer in ex-USSR schools
+
+Package: korvetemu-data
+Architecture: all
+Description: PK8020 Korvet emulator (data files)
+ This is a emulator of pk8020 "Korvet" computer
+ .
+ Korvet was a popular computer in ex-USSR schools
+ .
+ This package contains data files for it like fonts and rom images

@@ -1,0 +1,6 @@
+korvetemu for Debian
+--------------------
+
+To start run korvetemu -C /etc/korvetemu.cfg
+
+ -- Yauheni Kaliuta <y.kaliuta@gmail.com>, Mon,  6 Oct 2008 09:05:55 +0300
