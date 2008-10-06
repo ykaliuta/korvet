@@ -311,15 +311,6 @@ int main(int argc,char **argv) {
 //  for (i=0;i<256;i++) CPU_DBG[i]=0;
 //  TotalCPU=0;
 
-
-  allegro_init();
-
-  ReadConfig(); // Read KORVET.CFG file and set default values ...
-
-  InitOSD();
-  InitPrinter();
-  Init_Joystick();
-
   // parse command line option -A filename -B filename
   while ((i=getopt(argc, argv, "a:b:c:d:C:")) != -1) {
     switch (tolower(i)) {
@@ -330,6 +321,14 @@ int main(int argc,char **argv) {
       case 'C': configfile = optarg;break;	
     }
   }
+
+  allegro_init();
+
+  ReadConfig(); // Read KORVET.CFG file and set default values ...
+
+  InitOSD();
+  InitPrinter();
+  Init_Joystick();
 
   j=0;
   for (i=0;i<4;i++) {
