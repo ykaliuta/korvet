@@ -125,6 +125,8 @@ int Treasure=0;
 int CPU_DBG[256];
 int TotalCPU;
 
+static char *configfile = "./korvet.cfg";
+
 // timer routine for measuring
 void Timer_1S()
 {
@@ -240,7 +242,7 @@ void Write_Dump(void)
 
 void ReadConfig(void) {
     char section[]="korvet";
-    set_config_file("./korvet.cfg");
+    set_config_file(configfile);
     strcpy(Disks[0]      ,get_config_string(section,"DriveA","disk/disk.kdi"));
     strcpy(Disks[1]      ,get_config_string(section,"DriveB","disk/disk1.kdi"));
     strcpy(Disks[2]      ,get_config_string(section,"DriveC","disk/disk2.kdi"));
@@ -319,12 +321,13 @@ int main(int argc,char **argv) {
   Init_Joystick();
 
   // parse command line option -A filename -B filename
-  while ((i=getopt(argc, argv, "a:A:b:B:c:C:d:D:")) != -1) {
+  while ((i=getopt(argc, argv, "a:b:c:d:C:")) != -1) {
     switch (tolower(i)) {
       case 'a': strcpy(Disks[0],optarg);break;
       case 'b': strcpy(Disks[1],optarg);break;
       case 'c': strcpy(Disks[2],optarg);break;
       case 'd': strcpy(Disks[3],optarg);break;
+      case 'C': configfile = optarg;break;	
     }
   }
 
