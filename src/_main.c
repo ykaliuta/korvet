@@ -313,7 +313,7 @@ int main(int argc,char **argv) {
 
   // parse command line option -A filename -B filename
   while ((i=getopt(argc, argv, "a:b:c:d:C:")) != -1) {
-    switch (tolower(i)) {
+    switch (i) {
       case 'a': strcpy(Disks[0],optarg);break;
       case 'b': strcpy(Disks[1],optarg);break;
       case 'c': strcpy(Disks[2],optarg);break;
