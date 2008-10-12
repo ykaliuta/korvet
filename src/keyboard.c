@@ -155,15 +155,12 @@ int KEYBOARD_Read(int Addr) {
   for (i=0;i<MAXALIAS*2;i+=2) {if (KeyAlias[AliasTab[i]]) KeyAlias[AliasTab[i+1]]=1;}
 
   if (Addr&0x100) Line=8;
-  
-  if (Addr&0x0001) Value|=ChkMattrixLine(Line);Line++;
-  if (Addr&0x0002) Value|=ChkMattrixLine(Line);Line++;
-  if (Addr&0x0004) Value|=ChkMattrixLine(Line);Line++;
-  if (Addr&0x0008) Value|=ChkMattrixLine(Line);Line++;
-  if (Addr&0x0010) Value|=ChkMattrixLine(Line);Line++;
-  if (Addr&0x0020) Value|=ChkMattrixLine(Line);Line++;
-  if (Addr&0x0040) Value|=ChkMattrixLine(Line);Line++;
-  if (Addr&0x0080) Value|=ChkMattrixLine(Line);Line++;
+
+  for (i = 0; i < 8; i++) {
+    if (Addr & (1 << i))
+      Value |= ChkMattrixLine(Line);
+    Line++;
+  }
 
 #ifdef KEYBOARD_DEBUG
   textprintf(screen,font,450,50,255,"KBD_R: %04x:%02x",Addr,Value);
