@@ -289,23 +289,158 @@ void PrintDecor() {
   }
 }
 
+int main_iteration(AUDIOSTREAM *stream)
+{
+  unsigned char *p;
+
+  if (key[KEY_F11]) {
+    Takt=0;
+    Reset();
+    while(key[KEY_F11]);
+  }
+
+  if (key[KEY_F10]) {BW_Flag^=1;LutUpdateFlag=1;while (key[KEY_F10]);}
+  if (key[KEY_F8]) {
+    if (key[KEY_ALT]) {
+      Write_Dump();
+      while (key[KEY_ALT]);
+    } else {
+      WindowedFlag^=1;
+      SCREEN_SetGraphics(SCR_EMULATOR);
+    }
+    while (key[KEY_F8]);
+  }
+  if (key[KEY_F7]) {Debug_LUT(KEY_F7);}
+
+#ifdef DBG
+  word  __PC=CPU_GetPC();
+
+  if (__PC == 0x0000) CheckROM();
+  else if (__PC == 0xc75c) CheckCCP();
+  else if (__PC == 0xcade) CheckComEXEC();
+
+  if (__PC == dbg_HERE) dbg_TRACE=1;
+
+  if (RD_BreakPoint(__PC)&bpCPU) {dbg_TRACE=1;/*TraceCause=4;CauseAddr=CPU_GetPC()*/;}
+  if (dbg_TRACE) doDBG();
+
+  AddPC(__PC);
+
+#endif
+
+  Takt+=CPU_Exec1step();
+
+  if (Takt>=ALL_TAKT) {
+#ifdef SOUND
+//       MakeSound(); // timer
+    if (!key[KEY_F6]) {
+      MuteFlag=0;
+      MakeSound(); // timer
+
+      while (!(p = get_audio_stream_buffer(stream))) yield_timeslice();;
+      memcpy(p,SOUNDBUF,AUDIO_BUFFER_SIZE);
+#ifdef WAV
+      AddWAV(p,AUDIO_BUFFER_SIZE);
+#endif
+      free_audio_stream_buffer(stream);
+      while (!Counter50hz) yield_timeslice();   
+    } else {
+      MuteFlag=1;
+      MakeSound(); // timer
+//         free_audio_stream_buffer(stream);
+    }
+#endif
+    Counter50hz=0;
+
+    PIC_IntRequest(4);
+//       DoCH(2);
+
+    ChkMouse();
+//        ChkMouse_MouseSystem();
+
+//       IntREQ=CheckPIC();
+
+
+
+#ifndef SOUND
+//       else if (!key[KEY_F6]) vsync();
+//       if (!key[KEY_F6]) {
+//            while (!Counter50hz) yield_timeslice();   
+//            Counter50hz=0;
+//       };
+#endif
+
+
+#ifdef TRACETIMER
+    fprintf(F_TIMER,"V: %08d\n",Takt);
+#endif
+    if (LutUpdateFlag) LUT_Update(BW_Flag);
+    SCREEN_ShowScreen();
+
+
+    FPS++;
+
+//       textprintf(screen,font,0,60,255,"fps: %d SL:%d slavg:%d cnt50:%d %%%3d            ",FPS_Scr,ShowedLines_Scr/((FPS_Scr)?FPS_Scr:1),ShowedLinesTotal/((FPS_Scr)?FPS_Scr:1)/ShowedLinesCnt,Counter50hz,FPS_Scr*100/50);
+//       textprintf(screen,font,0,0,255,"fps: %d SL:%d slavg:%d cnt50:%d  ",FPS_Scr,ShowedLines_Scr/((FPS_Scr)?FPS_Scr:1),ShowedLinesTotal/((FPS_Scr)?FPS_Scr:1)/ShowedLinesCnt,Counter50hz);
+    Takt-=ALL_TAKT;
+
+    if (getpixel(screen,SCREEN_OFFX-1,SCREEN_OFFY-1) != 255) {
+      PrintDecor();
+      AllScreenUpdateFlag=1;
+    }
+    // выводим OnScreen LED
+    // ТОЛЬКО если есть необходимость обновить индикаторы, 
+    // иначе будут мигать, да и FPS падает ;-)
+    // FPS
+    if (OSD_FPS_Flag && (FPS_Scr != FPS_LED)) {PutLED_FPS(SCREEN_OFFX,SCREEN_OFFY+260,FPS_Scr);FPS_LED=FPS_Scr;};
+    // Floppy Disk TRACK
+    if (OSD_FDD_Flag && InUseFDD[0]) {InUseFDD[0]--;PutLED_FDD(SCREEN_OFFX+512-80,SCREEN_OFFY+260,VG.TrackReal[0],InUseFDD[0]);} 
+    if (OSD_FDD_Flag && InUseFDD[1]) {InUseFDD[1]--;PutLED_FDD(SCREEN_OFFX+512-60,SCREEN_OFFY+260,VG.TrackReal[1],InUseFDD[1]);} 
+    if (OSD_FDD_Flag && InUseFDD[2]) {InUseFDD[2]--;PutLED_FDD(SCREEN_OFFX+512-40,SCREEN_OFFY+260,VG.TrackReal[2],InUseFDD[2]);} 
+    if (OSD_FDD_Flag && InUseFDD[3]) {InUseFDD[3]--;PutLED_FDD(SCREEN_OFFX+512-20,SCREEN_OFFY+260,VG.TrackReal[3],InUseFDD[3]);} 
+
+    if (JoystickUseFlag) {JoystickUseFlag--;textprintf(screen,font,0, 0,255,"%s",(JoystickUseFlag==0)?"      ":"JOY:3B");} 
+
+//       textprintf(screen,font,0, 0,255," %s",RAM[0xf72d]?"low"  :"HIGH");
+//       textprintf(screen,font,0,40,255," %s",RAM[0xf72f]?"GRP " :"    ");
+
+    // if LAT<->RUS rebuild KeboardLayout table (auto qwerty<->jcuken) 
+    if ((RAM[0xf72e] ^ (KEYBOARD_Read(0x80)&2)) != KBD_LED) {
+      KBD_LED=(RAM[0xf72e] ^ (KEYBOARD_Read(0x80)&2));
+      KeyboadUpdateFlag=1;
+//            textprintf(screen,font,0,20,255,"0xf72e [%02x]:%s:%d",KBD_LED,KBD_LED?"LAT " :"RUS ",KeyboardLayout);
+    }
+
+  }
+
+  if (key[KEY_F9]) {
+
+    if (!key[KEY_ALT]) {
+#ifdef DBG
+      while (key[KEY_F9]);
+      dbg_TRACE=1;
+//      ShowPIC();
+//      ShowTMR();
+//#else 
+#endif
+    } else {
+      while(key[KEY_ALT]);
+      while(key[KEY_F9]);
+      GUI();
+      while(key[KEY_ESC]);
+    }
+//#endif
+  }
+  return 0;
+}
+
 int main(int argc,char **argv) {
 
   int i,j;
 
-  FILE *FTMP;
-
-  int skip;
-
   AUDIOSTREAM *stream;
-  unsigned char *p;
-  int TickCntr;
-  int outptr;
   int TempValue;
-  int SndCnt=1;
-  int SndAvg=1;
 
-  char BUFFER[2048];
 // debug tools ;-))
 
 //  for (i=0;i<256;i++) CPU_DBG[i]=0;
@@ -414,147 +549,13 @@ int main(int argc,char **argv) {
   SCREEN_ShowScreen();
 
   Takt=0;
-  while (!key[KEY_F12]) {
 
-    if (key[KEY_F11]) {
-      Takt=0;
-      Reset();
-      while(key[KEY_F11]);
-    }
+  /* ------------------------------------------ */
+  /* Main loop */
+  /* ------------------------------------------ */
 
-    if (key[KEY_F10]) {BW_Flag^=1;LutUpdateFlag=1;while (key[KEY_F10]);}
-    if (key[KEY_F8]) {
-      if (key[KEY_ALT]) {
-         Write_Dump();
-         while (key[KEY_ALT]);
-      } else {
-         WindowedFlag^=1;
-         SCREEN_SetGraphics(SCR_EMULATOR);
-      }
-      while (key[KEY_F8]);
-    }
-    if (key[KEY_F7]) {Debug_LUT(KEY_F7);}
-
-#ifdef DBG
-    word  __PC=CPU_GetPC();
-
-    if (__PC == 0x0000) CheckROM();
-    else if (__PC == 0xc75c) CheckCCP();
-    else if (__PC == 0xcade) CheckComEXEC();
-
-    if (__PC == dbg_HERE) dbg_TRACE=1;
-
-    if (RD_BreakPoint(__PC)&bpCPU) {dbg_TRACE=1;/*TraceCause=4;CauseAddr=CPU_GetPC()*/;}
-    if (dbg_TRACE) doDBG();
-
-    AddPC(__PC);
-
-#endif
-
-    Takt+=CPU_Exec1step();
-
-    if (Takt>=ALL_TAKT) {
-#ifdef SOUND
-//       MakeSound(); // timer
-       if (!key[KEY_F6]) {
-         MuteFlag=0;
-         MakeSound(); // timer
-
-         while (!(p = get_audio_stream_buffer(stream))) yield_timeslice();;
-         memcpy(p,SOUNDBUF,AUDIO_BUFFER_SIZE);
-#ifdef WAV
-         AddWAV(p,AUDIO_BUFFER_SIZE);
-#endif
-         free_audio_stream_buffer(stream);
-         while (!Counter50hz) yield_timeslice();   
-       } else {
-         MuteFlag=1;
-         MakeSound(); // timer
-//         free_audio_stream_buffer(stream);
-       }
-#endif
-       Counter50hz=0;
-
-       PIC_IntRequest(4);
-//       DoCH(2);
-
-        ChkMouse();
-//        ChkMouse_MouseSystem();
-
-//       IntREQ=CheckPIC();
-
-
-
-#ifndef SOUND
-//       else if (!key[KEY_F6]) vsync();
-//       if (!key[KEY_F6]) {
-//            while (!Counter50hz) yield_timeslice();   
-//            Counter50hz=0;
-//       };
-#endif
-
-
-#ifdef TRACETIMER
-       fprintf(F_TIMER,"V: %08d\n",Takt);
-#endif
-       if (LutUpdateFlag) LUT_Update(BW_Flag);
-       SCREEN_ShowScreen();
-
-
-       FPS++;
-
-//       textprintf(screen,font,0,60,255,"fps: %d SL:%d slavg:%d cnt50:%d %%%3d            ",FPS_Scr,ShowedLines_Scr/((FPS_Scr)?FPS_Scr:1),ShowedLinesTotal/((FPS_Scr)?FPS_Scr:1)/ShowedLinesCnt,Counter50hz,FPS_Scr*100/50);
-//       textprintf(screen,font,0,0,255,"fps: %d SL:%d slavg:%d cnt50:%d  ",FPS_Scr,ShowedLines_Scr/((FPS_Scr)?FPS_Scr:1),ShowedLinesTotal/((FPS_Scr)?FPS_Scr:1)/ShowedLinesCnt,Counter50hz);
-       Takt-=ALL_TAKT;
-
-         if (getpixel(screen,SCREEN_OFFX-1,SCREEN_OFFY-1) != 255) {
-            PrintDecor();
-            AllScreenUpdateFlag=1;
-         }
-       // выводим OnScreen LED
-       // ТОЛЬКО если есть необходимость обновить индикаторы, 
-       // иначе будут мигать, да и FPS падает ;-)
-       // FPS
-       if (OSD_FPS_Flag && (FPS_Scr != FPS_LED)) {PutLED_FPS(SCREEN_OFFX,SCREEN_OFFY+260,FPS_Scr);FPS_LED=FPS_Scr;};
-       // Floppy Disk TRACK
-       if (OSD_FDD_Flag && InUseFDD[0]) {InUseFDD[0]--;PutLED_FDD(SCREEN_OFFX+512-80,SCREEN_OFFY+260,VG.TrackReal[0],InUseFDD[0]);} 
-       if (OSD_FDD_Flag && InUseFDD[1]) {InUseFDD[1]--;PutLED_FDD(SCREEN_OFFX+512-60,SCREEN_OFFY+260,VG.TrackReal[1],InUseFDD[1]);} 
-       if (OSD_FDD_Flag && InUseFDD[2]) {InUseFDD[2]--;PutLED_FDD(SCREEN_OFFX+512-40,SCREEN_OFFY+260,VG.TrackReal[2],InUseFDD[2]);} 
-       if (OSD_FDD_Flag && InUseFDD[3]) {InUseFDD[3]--;PutLED_FDD(SCREEN_OFFX+512-20,SCREEN_OFFY+260,VG.TrackReal[3],InUseFDD[3]);} 
-
-       if (JoystickUseFlag) {JoystickUseFlag--;textprintf(screen,font,0, 0,255,"%s",(JoystickUseFlag==0)?"      ":"JOY:3B");} 
-
-//       textprintf(screen,font,0, 0,255," %s",RAM[0xf72d]?"low"  :"HIGH");
-//       textprintf(screen,font,0,40,255," %s",RAM[0xf72f]?"GRP " :"    ");
-
-       // if LAT<->RUS rebuild KeboardLayout table (auto qwerty<->jcuken) 
-       if ((RAM[0xf72e] ^ (KEYBOARD_Read(0x80)&2)) != KBD_LED) {
-            KBD_LED=(RAM[0xf72e] ^ (KEYBOARD_Read(0x80)&2));
-            KeyboadUpdateFlag=1;
-//            textprintf(screen,font,0,20,255,"0xf72e [%02x]:%s:%d",KBD_LED,KBD_LED?"LAT " :"RUS ",KeyboardLayout);
-       }
-
-    }
-
-    if (key[KEY_F9]) {
-
-       if (!key[KEY_ALT]) {
-#ifdef DBG
-      while (key[KEY_F9]);
-      dbg_TRACE=1;
-//      ShowPIC();
-//      ShowTMR();
-//#else 
-#endif
-     } else {
-      while(key[KEY_ALT]);
-      while(key[KEY_F9]);
-      GUI();
-      while(key[KEY_ESC]);
-     }
-//#endif
-    }
-  }
+  while (!key[KEY_F12])
+    main_iteration(stream);
 
 #ifdef WAV
   CloseWAV();
