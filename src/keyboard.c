@@ -131,14 +131,11 @@ void KBD_Init(void) {
 int ChkMattrixLine(int N)
 {
   int Value=0;
-  Value|=KeyAlias[KBD[0][N]]?0x01:0;
-  Value|=KeyAlias[KBD[1][N]]?0x02:0;
-  Value|=KeyAlias[KBD[2][N]]?0x04:0;
-  Value|=KeyAlias[KBD[3][N]]?0x08:0;
-  Value|=KeyAlias[KBD[4][N]]?0x10:0;
-  Value|=KeyAlias[KBD[5][N]]?0x20:0;
-  Value|=KeyAlias[KBD[6][N]]?0x40:0;
-  Value|=KeyAlias[KBD[7][N]]?0x80:0;
+  int i;
+
+  for (i = 0; i < 8; i++)
+    Value |= KeyAlias[ KBD[i][N] ] ? (1 << i) : 0;
+
   return Value;
 }
 
