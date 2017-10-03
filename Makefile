@@ -28,19 +28,17 @@ VPATH	= src
 all:    kdbg.exe
 
 clean: 
-	-rm -f objs/dbg/*
-	-rm -f objs/*
+	-rm -rf objs/*
 	-rm -f kdbg.exe
 
-objs/%.o:	%.c
-	gcc $(CFLAGS) -c -o $@ $<
+objs objs/dbg:
+	mkdir -p $@
 
-objs/%.o:	%.s
-	gcc $(CFLAGS) -c -o $@ $<
-
+objs/%.o:	%.c | objs objs/dbg
+	$(CC) $(CFLAGS) -c -o $@ $<
 
 kdbg.exe:	$(objs)
-	gcc $^ -o $@ $(LIBS)
+	$(CC) $^ -o $@ $(LIBS)
 
 include $(wildcard objs/*.d)
 include $(wildcard objs/dbg/*.d)
