@@ -24,6 +24,7 @@
 #include "dbg.h"
 #include "d8080.h"
 //#include "../i8080.h"
+#include "korvet.h"
 
 extern struct CPUREG dbg_REG;
 

@@ -20,6 +20,7 @@
  *
  */
 #include <allegro.h>
+#include "korvet.h"
 
 int mickeyx = 0;
 int mickeyy = 0;

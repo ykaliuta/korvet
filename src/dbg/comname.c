@@ -30,6 +30,7 @@
 
 #include <stdio.h>
 #include "dbg.h"
+#include "korvet.h"
 
 extern int SYSREG;
 //                          filename.ext

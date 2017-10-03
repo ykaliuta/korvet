@@ -20,6 +20,7 @@
  *
  */
 #include <allegro.h>
+#include "korvet.h"
 #include "dbg.h"
 
 extern struct CPUREG dbg_REG;

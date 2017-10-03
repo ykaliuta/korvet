@@ -164,6 +164,32 @@ _Label *FindNameLabel(char *Name);
 void WriteSYM(void);
 void ReadSYM(void);
 
+void SetDBGLut(int Flag);
+void UpdateHARDWARE(void);
+void Update_REGS(void);
+void Update_DASM(void);
+void Update_DUMP(void);
+void Update_HISTORY(void);
+void UpdateCOMNAME(void);
+void UpdateGameTool(void);
+void Update_Screen(void);
+void NormPC(void);
+void AddKorvetLabel(void);
+void WriteMEM(void);
+void ReadMEM(void);
+void GameTools(void);
+int GetCmdLen(word Addr);
+int GetBreakColor(word Addr,int Type);
+int DBG_Walker(int Key,struct ZONE *Z,int y);
+int LineEdit(char *src,int maxlen,int x,int y);
+int HEXEDIT(int Value,int Len,int x,int y);
+int ASMStr(char *Sstr,byte *Sdst);
+byte GetVisibleChar(byte Chr);
+int DASM(char *S,word A);
+void Set_DASMAddr(word Addr);
+
+char *strupr(char *str);
+
 extern int scr_Second_Font;	// Флаг выбора второго знакогенератора ViReg:00000x00
 
 #endif
