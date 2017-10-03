@@ -22,6 +22,8 @@
 #include <allegro.h>
 #include "dbg.h"
 #include "korvet.h"
+#include <ctype.h>
+#include <stdio.h>
 
 // на вход кнопка, указатель зоны и Y
 //   отображаем эту зону на экране, и перемещаем при необходимости

@@ -21,6 +21,7 @@
  */
 #include <allegro.h>
 #include "dbg.h"
+#include <stdio.h>
 
 #define HISTORYLEN 19
 

@@ -22,6 +22,7 @@
 // Game TOOLS
 #include "dbg.h"
 #include <allegro.h>
+#include <stdio.h>
 
 extern byte    RAM[];           // RAM эмулятора
 

@@ -21,6 +21,7 @@
  */
 #include "korvet.h"
 #include <allegro.h>
+#include <stdio.h>
 
 #define noKEYBOARD_DEBUG
 

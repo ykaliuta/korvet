@@ -22,6 +22,7 @@
 #include <allegro.h>
 #include "korvet.h"
 #include "dbg.h"
+#include <stdio.h>
 
 extern struct CPUREG dbg_REG;
 extern int           dbg_TRACE;   //если =1 то остановится ПЕРЕД выполнением комманды

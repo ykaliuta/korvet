@@ -20,6 +20,7 @@
  *
  */
 #include "korvet.h"
+#include <stdio.h>
 
 #define noPPI_DEBUG
 

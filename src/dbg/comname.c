@@ -29,6 +29,7 @@
 //  2003-11-05 - v 1.0
 
 #include <stdio.h>
+#include <string.h>
 #include "dbg.h"
 #include "korvet.h"
 

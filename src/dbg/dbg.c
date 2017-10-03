@@ -22,6 +22,7 @@
 #include <allegro.h>
 #include "dbg.h"
 #include "../korvet.h"
+#include <stdio.h>
 
 extern int AllScreenUpdateFlag;
 

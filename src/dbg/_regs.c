@@ -22,6 +22,8 @@
 #include <allegro.h>
 #include "dbg.h"
 #include "korvet.h"
+#include <stdio.h>
+
 /*
    int           Y;       // Y координата курсора в окне (0..YLine) относительно окна
    int           YLine;   // сколько строк в текущем окне (линий в поле)
