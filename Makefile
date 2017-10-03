@@ -1,6 +1,8 @@
 
 LIBS     = -liberty $(shell allegro-config --libs)
 CFLAGS   = -g -Wall -fomit-frame-pointer -Isrc $(shell allegro-config --cflags)
+CFLAGS   += -Wno-deprecated-declarations
+
 
 sources = _main.c \
           vg.c \
