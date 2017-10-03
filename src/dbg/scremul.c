@@ -37,7 +37,7 @@ void tDoUpdate(void) {
   int x,y;
   int addr=0;
   int SaveAttr=text_mode(0);
-  byte chs[]=" ";
+  char chs[]=" ";
 
   if (!DoUpdateFlag) return;
 
@@ -109,7 +109,7 @@ void  tScreenPutChar(int ch, int attr, int col, int row) {
   if (update) tDoUpdate();
 }
 
-void  tScreenPutString(byte *str, int attr, int col, int row) {
+void  tScreenPutString(char *str, int attr, int col, int row) {
   int update=0;
   int addr=row*TSCRX+col;
   byte ch;
@@ -180,7 +180,6 @@ void DBG_Pallete_Active(void) {
    PALLETE pallete;
    int i;
    int bright;
-   int c;
 
    int StartColor=0x20;
 
@@ -198,7 +197,6 @@ void DBG_Pallete_Pasive(void) {
    PALLETE pallete;
    int i;
    int bright;
-   int c;
 
    int StartColor=0x20;
 

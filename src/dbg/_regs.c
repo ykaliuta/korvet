@@ -79,9 +79,9 @@ struct ZONE REG_ZONE[4]={
 extern struct CPUREG dbg_REG;
 extern struct CPUREG dbg_prevREG;
 
-byte BUF[128];
+static char BUF[128];
 
-byte *GetRegPtr(word Reg,int Type) {
+char *GetRegPtr(word Reg,int Type) {
   static char BUF[128]="";
   int i;
 
@@ -100,7 +100,7 @@ byte *GetRegPtr(word Reg,int Type) {
 
 #define getcmpcolor(reg)  (((dbg_REG.reg) == (dbg_prevREG.reg))?C_Default:C_NEQ)
 void Update_REGS(void){
- word a0,a1,a2,a3,a4,a5;
+ word a0,a1,a2,a3;
  int i;
  char Flag[]="sz.a.p.c";
  byte     fl=dbg_REG.AF & 0xff;
@@ -138,7 +138,7 @@ void Update_REGS(void){
  }
 
 // sprintf(BUF,"%02x [%s]",dbg_REG.AF&0xff,Flag);tScreenPutString(BUF,getcmpcolor(AF&0xff),10+2,0);
- sprintf(BUF,"%02x",(dbg_REG.AF>>8),Flag);tScreenPutString(BUF,getcmpcolor(AF>>8),10,0);
+ sprintf(BUF,"%02x",(dbg_REG.AF>>8));tScreenPutString(BUF,getcmpcolor(AF>>8),10,0);
 
  sprintf(BUF,"%s",dbg_REG.Int?"Enable ":"Disable");tScreenPutString(BUF,getcmpcolor(Int),31,0);
 
@@ -167,11 +167,8 @@ void Update_REGS(void){
 }
 
 int _REGS(int Key){
-  int i;
-  int Key1,Shift=0;
+  int Key1;
   int YY=0;
-
-  char BUF[128];
 
   YY=REG_ZONE[0].Y;
 

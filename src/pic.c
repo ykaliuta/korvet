@@ -125,7 +125,7 @@ void PIC_init(void)
 void PIC_Write(int Addr,byte Value)
 {
  static int SlavePrg=0;
- int i,j;
+ int i;
 
  switch (Addr&1) {
    case 0: {
@@ -251,6 +251,8 @@ byte PIC_Read(int Addr)
 
         return IMR;break;} //IMR
  }
+ /* looks like should not reach it */
+ return -1;
 }
 
 void PIC_IntRequest(int IntNum)             // Запрос на прерывание.
@@ -262,9 +264,8 @@ void PIC_IntRequest(int IntNum)             // Запрос на прерыва�
 int CheckPIC  (void)                      // Проверка, есть запрос.
 {
  byte i;
- byte Low;
 // Биты в рег. запроса & то чего нет в маске | то что есть в работе
- i=FindMaxBit(IRR & ~IMR | ISR);       // найти максиммальный запрос с учетом маски
+ i=FindMaxBit((IRR & ~IMR) | ISR);       // найти максиммальный запрос с учетом маски
 
  if ( (i == 8) || (i == FindMaxBit(ISR)))  return 0; // NOP
 // return 1;
@@ -278,7 +279,7 @@ int DoPIC  (void)                      // Обработка запросов.
  byte i;
  byte Low;
 // Биты в рег. запроса & то чего нет в маске | то что есть в работе
- i=FindMaxBit(IRR & ~IMR | ISR);       // найти максиммальный запрос с учетом маски
+ i=FindMaxBit((IRR & ~IMR) | ISR);       // найти максиммальный запрос с учетом маски
 
  if ( (i == 8) || (i == FindMaxBit(ISR)))  return -1; // NOP
 
@@ -309,9 +310,7 @@ void Byte2Bin(char *str,byte b)
 void ShowPIC(void)
 {
 
- int i;
- char BUF[1024];
- char PICADDR[17]="00000000000xxx00";
+ /* char PICADDR[17]="00000000000xxx00"; */
  char MASKA[9]   ="00000000";
  char MODE[5][30]={"Full In     ",
                    "Shift A   ",
@@ -326,14 +325,12 @@ void ShowPIC(void)
  textprintf(screen,font,50,390,15,"PIC: Mode  : %s",MODE[picMODE]);
  textprintf(screen,font,50,400,15,"PIC: SMM=%d Read=%d OPROS=%d LowINT=%d",picSMM,picReadSR,picOPROS,picLowINT);
  textprintf(screen,font,50,410,15,"PIC: Step       : %s",(picRUS&0x04)?"4":"8");
- textprintf(screen,font,50,420,15,"PIC: Addr %04x",picHIGH<<8|picRUS&0xf0);
+ textprintf(screen,font,50,420,15,"PIC: Addr %04x",picHIGH << 8 | (picRUS & 0xf0));
 }
 
 void ShowPICdbg(void)
 {
 
- int i;
- char BUF[1024];
  char MASKA[9]   ="00000000";
  char MODE[5][30]={"FIn",
                    "ShA",
@@ -351,7 +348,7 @@ void ShowPICdbg(void)
  Byte2Bin(MASKA,ISR);textprintf(screen,font,x,y+16*2,0x20+0x07,"ISR  : %s",MASKA);
  textprintf(screen,font,x,y+16*3,0x20+0x07,"Mode : %s  ",MODE[picMODE]);
  textprintf(screen,font,x,y+16*4,0x20+0x07,"Step : %s  ",(picRUS&0x04)?"4":"8");
- textprintf(screen,font,x,y+16*5,0x20+0x07,"Addr : %04x  ",picHIGH<<8|picRUS&0xf0);
+ textprintf(screen,font,x,y+16*5,0x20+0x07,"Addr : %04x  ",picHIGH <<8 | (picRUS & 0xf0));
  textprintf(screen,font,x,y+16*6,0x20+0x07,"SMM  : %d  Rd:%d",picSMM,picReadSR);
  textprintf(screen,font,x,y+16*7,0x20+0x07,"OP   : %d  LI:%d",picOPROS,picLowINT);
 }

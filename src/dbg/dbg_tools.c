@@ -31,7 +31,7 @@
 //  или zEDIT | ZoneType если нажатая клавиша входит в область редактирования зоны
 
 
-byte FieldCHR[20][255]={
+static char FieldCHR[20][255]={
                    [zLABEL] {KEY_ENTER,KEY_DEL},
                    [zADDR ] {KEY_ENTER,KEY_0,KEY_1,KEY_2,KEY_3,KEY_4,KEY_5,KEY_6,KEY_7,KEY_8,KEY_9,KEY_A,KEY_B,KEY_C,KEY_D,KEY_E,KEY_F},
                    [zHEX  ] {KEY_ENTER,KEY_0,KEY_1,KEY_2,KEY_3,KEY_4,KEY_5,KEY_6,KEY_7,KEY_8,KEY_9,KEY_A,KEY_B,KEY_C,KEY_D,KEY_E,KEY_F},
@@ -49,9 +49,6 @@ byte FieldCHR[20][255]={
 };
 
 int DBG_Walker(int Key,struct ZONE *Z,int y) {
-
-  char BUF[64];
-
   int x;
   int RetKey = Key;
   char *CC;
@@ -156,13 +153,12 @@ int HEXEDIT(int Value,int Len,int x,int y) {
 int LineEdit(char *src,int maxlen,int x,int y) {
   int  pos=0;
   int  Len;
-  byte buf[128];
-  byte tmps[128];
-  int  work;
+  char buf[128];
+  char tmps[128];
   int  flEdit=1;
   int  Key,Key1;
   int  Ok=1;
-  char *tmp;
+  /* char *tmp; */
   int  i;
 
   strcpy(buf,src);

@@ -183,7 +183,7 @@ void Write_Dump(void)
 
   FILE *F_DMP;
   byte B1[3][PLANESIZE];
-  int i,j;
+  int i;
   word reg;
   char BUF[1024];
 

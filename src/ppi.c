@@ -100,7 +100,7 @@ byte Assemble_PPI1A(void)
 
 void DisassembleVIREG_PPI1C(byte Value)
 {
-   static unsigned char cntr=0;
+   /* static unsigned char cntr=0; */
 
    scr_Page_Acces =(Value&0xc0)>>6;    // ViReg:xx000000
    scr_Attr_Write =(Value&0x30)>>4;    // ViReg:00xx0000

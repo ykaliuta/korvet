@@ -51,10 +51,9 @@ struct ZONE DUMP_ZONE={ 0,10,19,0,
                       };
 
 void Update_DUMP(void) {
-  int x,y,i;
-  byte BUF[1024];
+  int x,y;
+  char BUF[1024];
   byte ch,color;
-  int Key;
   word Addr;
 
   char Label[128]="";
@@ -85,19 +84,19 @@ void Update_DUMP(void) {
 
        Addr++;
      }
-     tScreenPutChar('¦',C_Border,70,DUMP_ZONE.BaseY+y);
-     tScreenPutChar('¦',C_Border,70+16+1,DUMP_ZONE.BaseY+y);
+     tScreenPutChar('|',C_Border,70,DUMP_ZONE.BaseY+y);
+     tScreenPutChar('|',C_Border,70+16+1,DUMP_ZONE.BaseY+y);
   }
 
-  tScreenPutString("----------------------------------------------------------------------¦",C_Border,0,DUMP_ZONE.BaseY-1);
-  tScreenPutChar('¦',C_Border,70+16+1,DUMP_ZONE.BaseY-1);
+  tScreenPutString("----------------------------------------------------------------------|",C_Border,0,DUMP_ZONE.BaseY-1);
+  tScreenPutChar('|',C_Border,70+16+1,DUMP_ZONE.BaseY-1);
 //  tScreenPutString("----------------------------------------------------------------------+----------------+",C_Border,0,DUMP_ZONE.BaseY-1);
   tScreenPutString("----------------------------------------------------------------------+-----------------",C_Border,0,DUMP_ZONE.BaseY+DUMP_ZONE.YLine);
 }
 
 int _DUMP(int Key){
   int i;
-  int Key1,Shift=0;
+  int Key1;
 
   word Addr;
 
@@ -183,7 +182,6 @@ int _DUMP(int Key){
                            int tmp;
                            _Label *L;
                            char BUF[128]="";
-                           char BUF1[128]="";
 
                            L=FindAddrLabel(Addr);
 

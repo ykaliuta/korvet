@@ -64,7 +64,7 @@ void Memory_Init(void);
 void Emulator_Write(int Addres,byte Value);
 byte Emulator_Read(int Addres);
 byte RD_BreakPoint(int Addr);
-byte WR_BreakPoint(int Addr,byte Value);
+void WR_BreakPoint(int Addr,byte Value);
 
 void FDC_Reset(void);
 void FDC_Write_DRVREG(byte Value);
@@ -75,7 +75,7 @@ byte FDC_Read_DRVREG(void);
 void KBD_Init(void);
 int  KEYBOARD_Read(int Addr);
 
-int GZU_Init(void);
+void GZU_Init(void);
 void GZU_Write(int Addr,byte Value);
 byte GZU_Read(int Addr);
 
@@ -84,7 +84,7 @@ void ACZU_Write(int Addr,byte Value);
 byte ACZU_Read(int Addr);
 
 void SCREEN_Init(void);
-int SCREEN_SetGraphics(int ScrMode);
+void SCREEN_SetGraphics(int ScrMode);
 int SCREEN_SetText(void);
 void SCREEN_ShowScreen(void);
 
@@ -139,9 +139,9 @@ void PutLED_Lut(int x,int y,int i,int c);
 int InitPrinter(void);
 void DestroyPrinter(void);
 int GetPrinterStatus(void);
-int SetPrinterStrobe(int Value);
+void SetPrinterStrobe(int Value);
 
-int Init_Joystick(void);
+void Init_Joystick(void);
 int Read_Joystick(void);
 
 void dbg_INIT(void);

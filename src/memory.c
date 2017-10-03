@@ -66,7 +66,8 @@ extern int TraceCause;
 extern int CauseAddr;
 extern int InDBG;
 
-extern screen,font;
+extern struct BITMAP *screen;
+extern struct FONT *font;
 #ifdef DEBUG_MEMORY_LOW
 // EXTERNAL !!!!!!!!!!!!!!!!!!!!!!!
 int NCREG;
@@ -114,7 +115,6 @@ int Mapper_Init(void) {
 // --------------------------------------------------------------------------------- ROM part
 // Прочитать из файла Образ ПЗУ
 int ROM_Init(char *RomFileName) {
- int i;
  FILE *MFILE;
  if ((MFILE=fopen(RomFileName,"rb")) == NULL) return ERROR;
  fread(ROM,1,ROMSIZE,MFILE);
@@ -254,7 +254,7 @@ void Memory_Init(void)
 }
 
 byte RD_BreakPoint(int Addr)           { return BreakPoint[Addr&0xffff];};
-byte WR_BreakPoint(int Addr,byte Value){ BreakPoint[Addr&0xffff]=Value;};
+void WR_BreakPoint(int Addr,byte Value){ BreakPoint[Addr&0xffff]=Value;};
 
 
 #ifdef DEBUG_MEMORY_LOW

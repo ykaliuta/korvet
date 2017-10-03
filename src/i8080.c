@@ -174,7 +174,6 @@ void DoINT()
 int CPU_Exec1step (void)
 {
  unsigned char op;
- int i,j;
 
   Tstates = 0;
   op=RD_BYTE((int)PC++);

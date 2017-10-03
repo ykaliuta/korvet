@@ -163,7 +163,6 @@ int ACZU_InitFont(char *FileName)
 // fixed by Eduard Kalinovsky
 
 void ACZU_MakeFrameBuffer(void){
-    byte *p;
     byte *src=ACZU;
     byte *dst=GZU[scr_Page_Acces]+3;
     byte *chrdst;
@@ -263,12 +262,12 @@ void GZU_Write(int Addr,byte Value)
  byte *GZU_Ptr=GZU[scr_Page_Acces]+(Addr&0x3fff)*4;
  byte mask;
 
- int a0,a1,a2,c0,c1,c2;
+ /* int a0,a1,a2,c0,c1,c2; */
 // char md;
 
- a0=*(GZU_Ptr+0);
- a1=*(GZU_Ptr+1);
- a2=*(GZU_Ptr+2);
+ /* a0=*(GZU_Ptr+0); */
+ /* a1=*(GZU_Ptr+1); */
+ /* a2=*(GZU_Ptr+2); */
 
  LineUpdateFlag[(Addr&0x3fff)>>6]=1;
 
@@ -292,9 +291,9 @@ void GZU_Write(int Addr,byte Value)
    }
  }
 
- c0=*(GZU_Ptr+0);
- c1=*(GZU_Ptr+1);
- c2=*(GZU_Ptr+2);
+ /* c0=*(GZU_Ptr+0); */
+ /* c1=*(GZU_Ptr+1); */
+ /* c2=*(GZU_Ptr+2); */
 }
 
 byte GZU_Read(int Addr)
@@ -328,7 +327,7 @@ byte GZU_Read(int Addr)
 }
 
 
-int GZU_Init(void) {
+void GZU_Init(void) {
   int i,j;
 // clear memory
   for (i=0;i<4;i++)
@@ -386,7 +385,7 @@ void LUT_Init(void) {
 
 // ================================================================== LUT
 // ---------------------------------------------------------------------- SCREEN
-int SCREEN_SetGraphics(int ScrMode) {
+void SCREEN_SetGraphics(int ScrMode) {
   int tmp;
   static int oldWindowed=0;
 
@@ -449,16 +448,15 @@ int SCREEN_SetText(void) {
 //void ShowSCREEN(void) {
 
 void SCREEN_ShowScreen(void) {
- int 		x,y,i,j;
- int updated;
-
+ int 		x,y;
+ /* int i,j; */
 
  byte 		c1,c2,c3,c4;
 
- byte 		VGA_Frame[512*256];
+ /* byte 		VGA_Frame[512*256]; */
 
  byte 		*GZU_Ptr;	// Указатель на область ГЗУ
- byte 		*ACZU_Ptr;      // Указатель на область АЦЗУ
+ /* byte 		*ACZU_Ptr;      // Указатель на область АЦЗУ */
 
 #ifdef SLOWBITMAPCONVERT
  byte 		*VGA_Ptr;       // Указатель на область буфера виртуального экрана

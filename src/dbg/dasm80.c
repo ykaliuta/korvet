@@ -86,8 +86,10 @@ _Label *L;
           break;
     }
     case 2: {
-         W=Emulator_Read(B++)+256*Emulator_Read(B++);
-         if (L=FindAddrLabel(W)) sprintf(H,"%s:%04X",L->Name,W);  //ESL
+	 W = Emulator_Read(B++);
+	 W += 256*Emulator_Read(B++);
+	 L=FindAddrLabel(W);
+         if (L) sprintf(H,"%s:%04X",L->Name,W);  //ESL
          else sprintf(H,"%04X",W);                       //ESL
 //         sprintf(H,"%04x",W);                       //ESL
          strcat(S,H);

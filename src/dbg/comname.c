@@ -35,11 +35,11 @@
 
 extern int SYSREG;
 //                          filename.ext
-byte COM_NAME[8+3+1+1+2]="a:????????.???";
+static char COM_NAME[8+3+1+1+2]="a:????????.???";
 
 
 void UpdateCOMNAME(void) {
-  byte BUF[128];
+  char BUF[128];
 
   sprintf(BUF,"now:>%s<    ",COM_NAME);
   tScreenPutString(BUF,C_Border,110-5,18);
@@ -76,8 +76,6 @@ void CheckCCP(void) {
 }
 
 void CheckROM(void) {
-  int i;
-
   if (SYSREG != 0) return ;
 
   if ( Emulator_Read(0) != 0xf3 ) return; // wrong check pattern;

@@ -27,7 +27,7 @@ int JoystickFlag=0;
 
 int JoystickUseFlag=0; // for main.c how many tick show usejoystik indicator
 
-int Init_Joystick(void) {
+void Init_Joystick(void) {
 
    JoystickFlag=1;
 

@@ -24,17 +24,16 @@
 #include "dbg.h"
 #include "korvet.h"
 
-int x=29;
-int y=9;
+static int x=29;
+static int y=9;
 
-byte FileName[1024]="";
-int Begin=0;
-int End  =0xffff;
-int Addr;
+static char FileName[1024]="";
+static int Begin=0;
+static int End  =0xffff;
+static int Addr;
 
 void UpdateRW(int endfl) {
-  byte buf[128];
-  int tmp;
+  char buf[128];
 
   tSetUpdate(0);
 
@@ -48,10 +47,7 @@ void UpdateRW(int endfl) {
 int RWDialog(int mode) { //1 - write
 
   char Title[2][16]={"Д Read memory"," Write memory"};
-  byte buf[128];
   int tmp;
-  int i;
-  FILE *F;
 
   tSetUpdate(0);
 
@@ -86,7 +82,6 @@ int RWDialog(int mode) { //1 - write
 }
 
 void WriteMEM(void) {
-  int i;
   FILE *F;
 
   if (!RWDialog(1)) return;

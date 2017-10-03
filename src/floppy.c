@@ -21,7 +21,8 @@
  */
 #include "korvet.h"
 
-extern screen,font;
+extern struct BITMAP *screen;
+extern struct FONT *font;
 
 #include "vg.h"
 int InUseFDD[4];

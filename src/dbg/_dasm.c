@@ -54,7 +54,7 @@ void Set_DASMAddr(word Addr) {
 // Return len
 void Update_DASM(void)
 {
-  int     len,i,j;
+  int     len;
   char    BUF[1024];
   char    ASM[1024];
   char    Label[128]="";
@@ -158,9 +158,7 @@ void NormPC(void) {
 
 int _DASM(int Key) {
   int i;
-  int Key1,Shift=0;
-  int len;
-
+  int Key1;
   word Addr;
 
   char BUF[128];
@@ -235,7 +233,6 @@ int _DASM(int Key) {
                            int tmp;
                            _Label *L;
                            char BUF[128]="";
-                           char BUF1[128]="";
 
                            L=FindAddrLabel(Addr);
 
@@ -303,7 +300,7 @@ int _DASM(int Key) {
           case zDASM  : {
                           int i,j;
                           char BUF[128];
-                          char code[8];
+                          byte code[8];
 
                           DASM(BUF,Addr);
                           i=0;
