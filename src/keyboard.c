@@ -116,7 +116,7 @@ void KBD_Select() {
   }
 
   for (x=0;x<8;x++)
-   for (y=0;y<12;y++) 
+   for (y=0;y<12;y++)
      KBD[x][y]=(WorkLayout == KBD_QWERTY)?KBD0[x][y]:KBD1[x][y];
 
   KeyboadUpdateFlag=0;

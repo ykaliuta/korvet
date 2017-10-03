@@ -65,7 +65,7 @@ void (*ShowScreen)(void);
 unsigned int NCREG=0;
 // ================================================================ EXT VAR
 
-// Переменные 
+// Переменные
 // Биты продставленны в виде байтов, разбока и сборка для чтения
 // и записи в порты делаем только при необходимости
 
@@ -121,8 +121,8 @@ int WindowedFlag=0;
 // работа с текстовым экраном АЦЗУ
 
 // Прочитать из файла образ шрифта
-// сгенерировать образ для широкого знакогенератора 
-int ACZU_InitFont(char *FileName) 
+// сгенерировать образ для широкого знакогенератора
+int ACZU_InitFont(char *FileName)
 {
  FILE *F=fopen(FileName,"rb");
  int i,j;
@@ -154,13 +154,13 @@ int ACZU_InitFont(char *FileName)
     }
     p++;
  }
- 
+
  return OK;
 }
 
 // Сформировать образ битовых плоскостей в Frame_ACZU
 // используя знакогенератор и в зависимости от установленых флагов режимов
-// fixed by Eduard Kalinovsky 
+// fixed by Eduard Kalinovsky
 
 void ACZU_MakeFrameBuffer(void){
     byte *p;
@@ -198,14 +198,14 @@ void ACZU_MakeFrameBuffer(void){
                 *chrdst=(*chr++)^(*(src+1)); chrdst+=4;
                 *chrdst=(*chr++)^(*(src+1)); chrdst+=64*4-4;
             }
-          } 
+          }
           src+=4;
           dst+=8;
           *touch=0;
           touch+=2;
           if (!(scrlen & 0x1f)) dst+=15*64*4;
         }
-    } 
+    }
 }
 
 void ACZU_Write(int Addr,byte Value){
@@ -234,7 +234,7 @@ byte ACZU_Read(int Addr){
 
 int ACZU_Init(void) {
  int i;
- 
+
 // clear memory
  for (i=0;i<1024*2;i++) ACZU[i]=0;
  for (i=0;i<1024;i++) ACZU_TouchFlag[i]=1;
@@ -271,7 +271,7 @@ void GZU_Write(int Addr,byte Value)
  a2=*(GZU_Ptr+2);
 
  LineUpdateFlag[(Addr&0x3fff)>>6]=1;
- 
+
  if (NCREG & COLORMD) { //Color mode
    *(GZU_Ptr+0)=(*(GZU_Ptr+0) & ~Value) | ((NCREG & 2)?Value:0);
    *(GZU_Ptr+1)=(*(GZU_Ptr+1) & ~Value) | ((NCREG & 4)?Value:0);
@@ -432,7 +432,7 @@ int SCREEN_SetGraphics(int ScrMode) {
      allegro_exit();
      return 1;
    }
-   
+
    set_color_depth(bpp);
 
    request_refresh_rate(50);

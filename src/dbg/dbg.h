@@ -60,7 +60,7 @@ typedef signed char    offset;
 #define C_High       0x4f
 #define C_ReadWrite  0x0a
 #define C_NEQ        0x0b
- 
+
 #define zLABEL	1
 #define zADDR	2
 #define	zHEX	3
@@ -133,12 +133,12 @@ int _DASM(int Key);
 int _DUMP(int Key);
 
 word CPU_GetPC(void);
-word CPU_GetSP(void); 
-word CPU_GetHL(void); 
-word CPU_GetDE(void); 
-word CPU_GetBC(void); 
-word CPU_GetAF(void); 
-word CPU_GetI(void);  
+word CPU_GetSP(void);
+word CPU_GetHL(void);
+word CPU_GetDE(void);
+word CPU_GetBC(void);
+word CPU_GetAF(void);
+word CPU_GetI(void);
 
 void CPU_SetPC(word Val);
 void CPU_SetSP(word Val);

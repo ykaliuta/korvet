@@ -47,7 +47,7 @@ struct ZONE REG_ZONE[4]={
                         { 31      , 1,zSKIP },{31,1,zSKIP},{31,1,zSKIP},{31,1,zSKIP},{31,1,zSKIP},
                         { 31      , 1,zSKIP },{31,1,zSKIP},{31,1,zSKIP},{31,1,zSKIP},{31,1,zSKIP},
                        }
-                       
+
        },
    [2] {                0,4,2,0,
                         0,(1+1+4),
@@ -58,7 +58,7 @@ struct ZONE REG_ZONE[4]={
                          { 31      , 1,zSKIP },{31,1,zSKIP},{31,1,zSKIP},{31,1,zSKIP},{31,1,zSKIP},
                          { 31      , 1,zSKIP },{31,1,zSKIP},{31,1,zSKIP},{31,1,zSKIP},{31,1,zSKIP},
                         }
-                       
+
        },
    [3] {                0,4,3,0,
                         0,(1+1),
@@ -81,7 +81,7 @@ byte BUF[128];
 byte *GetRegPtr(word Reg,int Type) {
   static char BUF[128]="";
   int i;
-  
+
   switch (Type) {
     case 0: sprintf(BUF,"%02x %02x %02x %02x",Emulator_Read(Reg+0),Emulator_Read(Reg+1),Emulator_Read(Reg+2),Emulator_Read(Reg+3));
             break;
@@ -142,7 +142,7 @@ void Update_REGS(void){
  tScreenPutString("     BC = ",C_Default,0,1);tScreenPutString("          0    -1   -2   -3",C_Default,28,1);
  sprintf(BUF,"%04x ",dbg_REG.BC);tScreenPutString(BUF,getcmpcolor(BC),10,1);
  tScreenPutString(GetRegPtr(dbg_REG.BC,REG_ZONE[1].BaseAddr),C_Shadow,15,1);
- 
+
  tScreenPutString("     DE = ",C_Default,0,2);tScreenPutString(" SP = ",C_Default,26,2);
  sprintf(BUF,"%04x ",dbg_REG.DE);tScreenPutString(BUF,getcmpcolor(DE),10,2);
  tScreenPutString(GetRegPtr(dbg_REG.DE,REG_ZONE[2].BaseAddr),C_Shadow,15,2);
@@ -155,7 +155,7 @@ void Update_REGS(void){
 // a3=(Emulator_Read(dbg_REG.SP-7)<<8)+Emulator_Read(dbg_REG.SP-8);
  sprintf(BUF,": %04x %04x %04x %04x",a0,a1,a2,a3);tScreenPutString(BUF,C_Default,36,2);
 
- 
+
  tScreenPutString("     HL = ",C_Default,0,3);tScreenPutString(" PC = ",C_Default,26,3);
  sprintf(BUF,"%04x ",dbg_REG.HL);tScreenPutString(BUF,getcmpcolor(HL),10,3);
  sprintf(BUF,"%04x ",dbg_REG.PC);tScreenPutString(BUF,C_Default,32,3);
@@ -208,11 +208,11 @@ int _REGS(int Key){
                            dbg_REG.AF^=1<<(8-zone->Cursor);
                            break;
           }
-          case zRAF   : 
-          case zRBC   : 
-          case zRDE   : 
-          case zRHL   : 
-          case zRSP   : 
+          case zRAF   :
+          case zRBC   :
+          case zRDE   :
+          case zRHL   :
+          case zRSP   :
           case zRPC   : {
                            int tmp;
                            word *ptr;

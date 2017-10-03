@@ -272,14 +272,14 @@ void PrintDecor() {
   putpixel(screen,SCREEN_OFFX+512+1,SCREEN_OFFY-2,254);
   putpixel(screen,SCREEN_OFFX-2    ,SCREEN_OFFY+256+1,254);
   putpixel(screen,SCREEN_OFFX+512+1,SCREEN_OFFY+256+1,254);
-//add dot 
+//add dot
   putpixel(screen,SCREEN_OFFX-1  ,SCREEN_OFFY-1,255);
   putpixel(screen,SCREEN_OFFX+512,SCREEN_OFFY-1,255);
   putpixel(screen,SCREEN_OFFX-1  ,SCREEN_OFFY+256,255);
   putpixel(screen,SCREEN_OFFX+512,SCREEN_OFFY+256,255);
 
 
-//init InUseFlag for screen update 
+//init InUseFlag for screen update
   InUseFDD[0]=InUseFDD[1]=InUseFDD[2]=InUseFDD[3]=1;
 
   if (Current_Scr_Mode != SCR_DBG) {
@@ -343,7 +343,7 @@ int main_iteration(AUDIOSTREAM *stream)
       AddWAV(p,AUDIO_BUFFER_SIZE);
 #endif
       free_audio_stream_buffer(stream);
-      while (!Counter50hz) yield_timeslice();   
+      while (!Counter50hz) yield_timeslice();
     } else {
       MuteFlag=1;
       MakeSound(); // timer
@@ -365,7 +365,7 @@ int main_iteration(AUDIOSTREAM *stream)
 #ifndef SOUND
 //       else if (!key[KEY_F6]) vsync();
 //       if (!key[KEY_F6]) {
-//            while (!Counter50hz) yield_timeslice();   
+//            while (!Counter50hz) yield_timeslice();
 //            Counter50hz=0;
 //       };
 #endif
@@ -389,22 +389,22 @@ int main_iteration(AUDIOSTREAM *stream)
       AllScreenUpdateFlag=1;
     }
     // выводим OnScreen LED
-    // ТОЛЬКО если есть необходимость обновить индикаторы, 
+    // ТОЛЬКО если есть необходимость обновить индикаторы,
     // иначе будут мигать, да и FPS падает ;-)
     // FPS
     if (OSD_FPS_Flag && (FPS_Scr != FPS_LED)) {PutLED_FPS(SCREEN_OFFX,SCREEN_OFFY+260,FPS_Scr);FPS_LED=FPS_Scr;};
     // Floppy Disk TRACK
-    if (OSD_FDD_Flag && InUseFDD[0]) {InUseFDD[0]--;PutLED_FDD(SCREEN_OFFX+512-80,SCREEN_OFFY+260,VG.TrackReal[0],InUseFDD[0]);} 
-    if (OSD_FDD_Flag && InUseFDD[1]) {InUseFDD[1]--;PutLED_FDD(SCREEN_OFFX+512-60,SCREEN_OFFY+260,VG.TrackReal[1],InUseFDD[1]);} 
-    if (OSD_FDD_Flag && InUseFDD[2]) {InUseFDD[2]--;PutLED_FDD(SCREEN_OFFX+512-40,SCREEN_OFFY+260,VG.TrackReal[2],InUseFDD[2]);} 
-    if (OSD_FDD_Flag && InUseFDD[3]) {InUseFDD[3]--;PutLED_FDD(SCREEN_OFFX+512-20,SCREEN_OFFY+260,VG.TrackReal[3],InUseFDD[3]);} 
+    if (OSD_FDD_Flag && InUseFDD[0]) {InUseFDD[0]--;PutLED_FDD(SCREEN_OFFX+512-80,SCREEN_OFFY+260,VG.TrackReal[0],InUseFDD[0]);}
+    if (OSD_FDD_Flag && InUseFDD[1]) {InUseFDD[1]--;PutLED_FDD(SCREEN_OFFX+512-60,SCREEN_OFFY+260,VG.TrackReal[1],InUseFDD[1]);}
+    if (OSD_FDD_Flag && InUseFDD[2]) {InUseFDD[2]--;PutLED_FDD(SCREEN_OFFX+512-40,SCREEN_OFFY+260,VG.TrackReal[2],InUseFDD[2]);}
+    if (OSD_FDD_Flag && InUseFDD[3]) {InUseFDD[3]--;PutLED_FDD(SCREEN_OFFX+512-20,SCREEN_OFFY+260,VG.TrackReal[3],InUseFDD[3]);}
 
-    if (JoystickUseFlag) {JoystickUseFlag--;textprintf(screen,font,0, 0,255,"%s",(JoystickUseFlag==0)?"      ":"JOY:3B");} 
+    if (JoystickUseFlag) {JoystickUseFlag--;textprintf(screen,font,0, 0,255,"%s",(JoystickUseFlag==0)?"      ":"JOY:3B");}
 
 //       textprintf(screen,font,0, 0,255," %s",RAM[0xf72d]?"low"  :"HIGH");
 //       textprintf(screen,font,0,40,255," %s",RAM[0xf72f]?"GRP " :"    ");
 
-    // if LAT<->RUS rebuild KeboardLayout table (auto qwerty<->jcuken) 
+    // if LAT<->RUS rebuild KeboardLayout table (auto qwerty<->jcuken)
     if ((RAM[0xf72e] ^ (KEYBOARD_Read(0x80)&2)) != KBD_LED) {
       KBD_LED=(RAM[0xf72e] ^ (KEYBOARD_Read(0x80)&2));
       KeyboadUpdateFlag=1;
@@ -421,7 +421,7 @@ int main_iteration(AUDIOSTREAM *stream)
       dbg_TRACE=1;
 //      ShowPIC();
 //      ShowTMR();
-//#else 
+//#else
 #endif
     } else {
       while(key[KEY_ALT]);
@@ -453,7 +453,7 @@ int main(int argc,char **argv) {
       case 'b': strcpy(Disks[1],optarg);break;
       case 'c': strcpy(Disks[2],optarg);break;
       case 'd': strcpy(Disks[3],optarg);break;
-      case 'C': configfile = optarg;break;	
+      case 'C': configfile = optarg;break;
     }
   }
 
@@ -500,7 +500,7 @@ int main(int argc,char **argv) {
 
 
 #ifdef SOUND
-//    install a digital sound driver 
+//    install a digital sound driver
    if (install_sound(DIGI_AUTODETECT, MIDI_NONE, NULL) != 0) {
       allegro_message("Error initialising sound system\n%s\n", allegro_error);
       return 1;
@@ -508,7 +508,7 @@ int main(int argc,char **argv) {
    printf("Driver: %s", digi_driver->name);
 
 
-//    create an audio stream 
+//    create an audio stream
    stream = play_audio_stream(AUDIO_BUFFER_SIZE, 8, FALSE, SOUNDFREQ, 255, 128);
    if (!stream) {
       set_gfx_mode(GFX_TEXT, 0, 0, 0, 0);

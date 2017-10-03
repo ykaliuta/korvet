@@ -212,9 +212,9 @@ byte Emulator_Read(int Addres)
   } else {
   switch (RamType) {
     case  M_RAM     : {Value=RAM[Addres&0xffff];break;}
-    case  M_ROM0    :               
-    case  M_ROM1    :               
-    case  M_ROM2    : {Value=ROM[Addres&0xffff];break;}              
+    case  M_ROM0    :
+    case  M_ROM1    :
+    case  M_ROM2    : {Value=ROM[Addres&0xffff];break;}
     case  M_KEYBOARD: {Value=KEYBOARD_Read(Addres);break;}
     case  M_REGBASE : {
            // при чтении по адресам Регистров читается содержимое памяти  ???

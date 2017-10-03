@@ -303,7 +303,7 @@ void ShowPPIdbg(void) {
 
  char tncreg[512];
 
- char tsysreg[32][40]={          
+ char tsysreg[32][40]={
                        "0-37FF|3C00|    |3B00|3A00|3800",
                        "0-1FFF|    |    |    |    |    ",
                        "0-3FFF|    |    |    |    |    ",
