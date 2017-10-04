@@ -20,11 +20,12 @@
  *
  */
 #include "korvet.h"
+#include <stdio.h>
 
 //extern screen,font;
 #ifdef TRACETIMER
 extern int Takt;
-extern F_TIMER;
+extern FILE *F_TIMER;
 #endif
 
 

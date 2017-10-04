@@ -31,7 +31,7 @@
 
 #ifdef TRACETIMER
 extern int Takt;
-extern F_TIMER;
+extern FILE *F_TIMER;
 #endif
 
 extern int SYSREG;
