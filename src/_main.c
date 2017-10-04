@@ -291,8 +291,6 @@ void PrintDecor() {
 
 int main_iteration(AUDIOSTREAM *stream)
 {
-  unsigned char *p;
-
   if (key[KEY_F11]) {
     Takt=0;
     Reset();
@@ -332,6 +330,8 @@ int main_iteration(AUDIOSTREAM *stream)
 
   if (Takt>=ALL_TAKT) {
 #ifdef SOUND
+  unsigned char *p;
+
 //       MakeSound(); // timer
     if (!key[KEY_F6]) {
       MuteFlag=0;
@@ -438,7 +438,7 @@ int main(int argc,char **argv) {
 
   int i,j;
 
-  AUDIOSTREAM *stream;
+  AUDIOSTREAM *stream = NULL;
   int TempValue;
 
 // debug tools ;-))
