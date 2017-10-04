@@ -289,6 +289,30 @@ void PrintDecor() {
   }
 }
 
+#ifndef SOUND
+static inline void MainSoundTick(AUDIOSTREAM *stream) {};
+#else
+static void MainSoundTick(AUDIOSTREAM *stream)
+{
+  MakeSound();
+
+  if (!MuteFlag) {
+    unsigned char *p;
+
+    while (!(p = get_audio_stream_buffer(stream)))
+      yield_timeslice();
+
+    memcpy(p,SOUNDBUF,AUDIO_BUFFER_SIZE);
+
+#ifdef WAV
+    AddWAV(p,AUDIO_BUFFER_SIZE);
+#endif
+
+    free_audio_stream_buffer(stream);
+  }
+}
+#endif
+
 int main_iteration(AUDIOSTREAM *stream)
 {
   if (key[KEY_F11]) {
@@ -325,32 +349,23 @@ int main_iteration(AUDIOSTREAM *stream)
   AddPC(__PC);
 
 #endif
-
   Takt+=CPU_Exec1step();
 
   if (Takt>=ALL_TAKT) {
+
     Timer50HzTick();
-#ifdef SOUND
-  unsigned char *p;
 
-//       MakeSound(); // timer
-    if (!key[KEY_F6]) {
-      MuteFlag=0;
-      MakeSound(); // timer
-
-      while (!(p = get_audio_stream_buffer(stream))) yield_timeslice();;
-      memcpy(p,SOUNDBUF,AUDIO_BUFFER_SIZE);
-#ifdef WAV
-      AddWAV(p,AUDIO_BUFFER_SIZE);
-#endif
-      free_audio_stream_buffer(stream);
-      while (!Counter50hz) yield_timeslice();
-    } else {
+    if (key[KEY_F6]) {
       MuteFlag=1;
-      MakeSound(); // timer
-//         free_audio_stream_buffer(stream);
+      /* skip waiting for the real 50Hz tick */
+    } else {
+      MuteFlag=0;
+      MainSoundTick(stream);
+
+      while (!Counter50hz)
+	yield_timeslice();
     }
-#endif
+
     Counter50hz=0;
 
     PIC_IntRequest(4);
@@ -360,17 +375,6 @@ int main_iteration(AUDIOSTREAM *stream)
 //        ChkMouse_MouseSystem();
 
 //       IntREQ=CheckPIC();
-
-
-
-#ifndef SOUND
-//       else if (!key[KEY_F6]) vsync();
-//       if (!key[KEY_F6]) {
-//            while (!Counter50hz) yield_timeslice();
-//            Counter50hz=0;
-//       };
-#endif
-
 
 #ifdef TRACETIMER
     fprintf(F_TIMER,"V: %08d\n",Takt);
