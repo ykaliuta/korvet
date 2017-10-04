@@ -9,6 +9,7 @@
 #include <ctype.h>
 #include <stdio.h>
 #include <string.h>
+#include <termio.h>
 
 char *strupr(char *str)
 {
@@ -24,7 +25,23 @@ char *strupr(char *str)
 char getch(void)
 {
   char a;
-  printf("no getch(), enter smth\n");
+  struct termio old, new;
+  int fd;
+
+  fd = fileno(stdin);
+
+  if (ioctl(fd, TCGETA, &old) == -1)
+	  return -1;
+
+  new = old;
+  new.c_lflag &= ~(ICANON | ECHO);
+
+  if (ioctl(fd, TCSETA, &new) == -1)
+	  return -1;
+
   scanf("%c", &a);
+
+  ioctl(fd, TCSETA, old);
+
   return a;
 }

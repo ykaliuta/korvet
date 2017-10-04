@@ -483,7 +483,10 @@ int main(int argc,char **argv) {
      close(TempValue);
   }
 
-  if (j) getch();
+  if (j) {
+    printf("Press any key to continue\n");
+    getch();
+  }
 
 #ifdef TRACETIMER
   F_TIMER=fopen("_timer.log","wb");
