@@ -404,8 +404,6 @@ void MakeSound(void) {
   int  ByteInByte=40000/AUDIO_BUFFER_SIZE;
   int  outptr=0;
   int  d7=0;
-  DoTimer();
-  PrevTakt-=ALL_TAKT;
 
   if (MuteFlag) {
     for (i=0;i<AUDIO_BUFFER_SIZE;i++) SOUNDBUF[i]=0;
@@ -427,6 +425,12 @@ void MakeSound(void) {
   }
 */
   BytePtr=0;
+}
+
+void Timer50HzTick(void)
+{
+  DoTimer();
+  PrevTakt -= ALL_TAKT;
 }
 
 // ---------------------------------------------------------

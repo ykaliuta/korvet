@@ -329,6 +329,7 @@ int main_iteration(AUDIOSTREAM *stream)
   Takt+=CPU_Exec1step();
 
   if (Takt>=ALL_TAKT) {
+    Timer50HzTick();
 #ifdef SOUND
   unsigned char *p;
 
