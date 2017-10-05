@@ -313,9 +313,9 @@ static void MainSoundTick(AUDIOSTREAM *stream)
 }
 #endif
 
-static void Main50HzTick(AUDIOSTREAM *stream)
+static void Main50HzTick(AUDIOSTREAM *stream, int is_turbo_mode)
 {
-  if (key[KEY_F6]) {
+  if (is_turbo_mode) {
     MuteFlag=1;
     /* skip waiting for the real 50Hz tick */
   } else {
@@ -415,9 +415,10 @@ int main_iteration(AUDIOSTREAM *stream)
   Takt+=CPU_Exec1step();
 
   if (Takt >= ALL_TAKT) {
+    int turbo_mode = !!key[KEY_F6];
     /* Order is significant, timer changes some globals */
     Timer50HzTick();
-    Main50HzTick(stream);
+    Main50HzTick(stream, turbo_mode);
     Takt -= ALL_TAKT;
   }
 
@@ -439,7 +440,7 @@ int main_iteration(AUDIOSTREAM *stream)
     }
 //#endif
   }
-  return 0;
+  return !key[KEY_F12];
 }
 
 int main(int argc,char **argv) {
@@ -566,8 +567,8 @@ int main(int argc,char **argv) {
   /* Main loop */
   /* ------------------------------------------ */
 
-  while (!key[KEY_F12])
-    main_iteration(stream);
+  while (main_iteration(stream))
+    ;
 
 #ifdef WAV
   CloseWAV();
